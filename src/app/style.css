@@ -1,38 +1,16 @@
 /** @format */
 
 .hero {
-  background-size: cover;
-  background-image: url('../../public/bg/construction.jpg');
+  background-size: contain;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.831),
+      rgba(0, 0, 0, 0.92)
+    ),
+    url('../../public/bg/photo-collage.png.png');
   background-position: center;
   font-family: 'Oswald', sans-serif;
-  animation: slideshow 15s infinite; /* Change image every 15 seconds */
-}
-
-@keyframes slideshow {
-  0% {
-    background-image: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.816),
-        rgba(0, 0, 0, 0.811)
-      ),
-      url('../../public/bg/construction.jpg');
-  }
-  50% {
-    background-image: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.816),
-        rgba(0, 0, 0, 0.811)
-      ),
-      url('../../public/bg/cleaning-shore.jpg');
-  }
-  100% {
-    background-image: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.816),
-        rgba(0, 0, 0, 0.811)
-      ),
-      url('../../public/bg/power-drb.jpg');
-  }
 }
 
 .hero-content {
@@ -51,7 +29,10 @@
 /* Mobile Styles */
 @media (max-width: 767px) {
   .hero {
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 70vh;
+    background-attachment: scroll;
   }
 }
 
