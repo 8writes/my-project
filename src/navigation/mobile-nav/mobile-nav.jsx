@@ -47,14 +47,14 @@ const MobileNav = () => {
                   src={closeMenu}
                   alt='Close Icon'
                   width={30}
-                  loading='lazy'
+                  loading='eager'
                 />
               ) : (
                 <Image
                   src={openMenu}
                   alt='Open Icon'
                   width={30}
-                  loading='lazy'
+                  loading='eager'
                 />
               )}
             </motion.div>
