@@ -21,7 +21,7 @@ const Hero = () => {
 
   useEffect(() => {
     controls.start({
-      opacity: Math.max(0, 1 - scrollY / 300), // Gradually fade out based on scroll position
+      opacity: Math.max(0, 1 - scrollY / 200), // Gradually fade out based on scroll position
       transition: {
         duration: 0.2,
       },
