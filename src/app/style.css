@@ -24,8 +24,7 @@
   background-size: cover;
   background-position: center;
 }
-.services .vector {
-}
+
 /* Mobile Styles */
 @media (max-width: 767px) {
   .hero {
