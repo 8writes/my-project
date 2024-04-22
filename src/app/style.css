@@ -4,7 +4,6 @@
   background-size: cover;
   background-position: center;
   font-family: 'Oswald', sans-serif;
-  background-attachment: fixed;
   animation: slideshow 15s infinite; /* Change image every 15 seconds */
 }
 
