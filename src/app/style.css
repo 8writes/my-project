@@ -50,7 +50,6 @@
 /* Mobile Styles */
 @media (max-width: 767px) {
   .hero {
-    background-attachment: scroll;
     height: 70vh;
   }
 }
