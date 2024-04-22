@@ -12,24 +12,24 @@
   0% {
     background-image: linear-gradient(
         90deg,
-        rgba(0, 0, 0, 0.85),
-        rgba(0, 0, 0, 0.838)
+        rgba(0, 0, 0, 0.816),
+        rgba(0, 0, 0, 0.811)
       ),
       url('../../public/bg/construction.jpg');
   }
   50% {
     background-image: linear-gradient(
         90deg,
-        rgba(0, 0, 0, 0.85),
-        rgba(0, 0, 0, 0.838)
+        rgba(0, 0, 0, 0.816),
+        rgba(0, 0, 0, 0.811)
       ),
       url('../../public/bg/cleaning-shore.jpg');
   }
   100% {
     background-image: linear-gradient(
         90deg,
-        rgba(0, 0, 0, 0.85),
-        rgba(0, 0, 0, 0.838)
+        rgba(0, 0, 0, 0.816),
+        rgba(0, 0, 0, 0.811)
       ),
       url('../../public/bg/power-drb.jpg');
   }

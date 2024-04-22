@@ -36,7 +36,7 @@ const MobileNav = () => {
       <section className='mobile-nav flex items-center justify-between bg-white py-1 px-5'>
         <div className='mobile-nav-logo'>
           <Link href='/'>
-            <Image src={logo} alt='Company Logo' width={65} loading='lazy' />
+            <Image src={logo} alt='Company Logo' width={65} loading='eager' />
           </Link>
         </div>
         <div className='mobile-nav-end'>

@@ -13,7 +13,7 @@ const DesktopNav = () => {
       <section className='desktop-nav flex items-center justify-between border-b-2 border-slate-200 bg-white p-1'>
         <div className='desktop-nav-logo mx-auto'>
           <Link className='' href='/'>
-            <Image src={logo} alt='Company Logo' width={83} />
+            <Image src={logo} alt='Company Logo' width={83} loading='eager' />
           </Link>
         </div>
         <div className='desktop-nav-link mx-auto'>
