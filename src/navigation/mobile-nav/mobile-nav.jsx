@@ -86,7 +86,7 @@ const MobileNav = () => {
                     },
                   }}>
                   <div
-                    className='border-slate-200 flex items-center justify-between group-hover:shadow-2xl '
+                    className='border-slate-200 flex items-center justify-between '
                     onClick={() => toggleDropdown('services')}>
                     Services
                     <Image
@@ -179,7 +179,7 @@ const MobileNav = () => {
                     },
                   }}>
                   <div
-                    className='border-slate-200 flex items-center justify-between group-hover:shadow-2xl '
+                    className='border-slate-200 flex items-center justify-between '
                     onClick={() => toggleDropdown('projects')}>
                     Projects
                     <Image
@@ -232,7 +232,7 @@ const MobileNav = () => {
                     },
                   }}>
                   <div
-                    className='border-slate-200 flex items-center justify-between group-hover:shadow-2xl '
+                    className='border-slate-200 flex items-center justify-between '
                     onClick={() => toggleDropdown('technical')}>
                     Technical Partners
                     <Image
@@ -285,7 +285,7 @@ const MobileNav = () => {
                     },
                   }}>
                   <div
-                    className='border-slate-200 flex items-center justify-between group-hover:shadow-2xl '
+                    className='border-slate-200 flex items-center justify-between '
                     onClick={() => toggleDropdown('company')}>
                     Company Overview
                     <Image
