@@ -2,6 +2,7 @@
 
 .hero {
   background-size: cover;
+  background-image: url('../../public/bg/construction.jpg');
   background-position: center;
   font-family: 'Oswald', sans-serif;
   animation: slideshow 15s infinite; /* Change image every 15 seconds */
