@@ -5,7 +5,7 @@
   background-position: center;
   font-family: 'Oswald', sans-serif;
   background-attachment: fixed;
-  animation: slideshow 15s infinite alternate; /* Change image every 15 seconds */
+  animation: slideshow 15s infinite; /* Change image every 15 seconds */
 }
 
 @keyframes slideshow {
@@ -16,7 +16,6 @@
         rgba(0, 0, 0, 0.838)
       ),
       url('../../public/bg/construction.jpg');
-    opacity: 1; /* Initial opacity */
   }
   50% {
     background-image: linear-gradient(
@@ -25,7 +24,6 @@
         rgba(0, 0, 0, 0.838)
       ),
       url('../../public/bg/cleaning-shore.jpg');
-    opacity: 1; /* Initial opacity */
   }
   100% {
     background-image: linear-gradient(
@@ -34,7 +32,6 @@
         rgba(0, 0, 0, 0.838)
       ),
       url('../../public/bg/power-drb.jpg');
-    opacity: 1; /* Initial opacity */
   }
 }
 
