@@ -31,7 +31,7 @@
   .hero {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 80vh;
     background-attachment: scroll;
   }
 }
