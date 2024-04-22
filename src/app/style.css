@@ -1,0 +1,67 @@
+/** @format */
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  font-family: 'Oswald', sans-serif;
+  background-attachment: fixed;
+  animation: slideshow 15s infinite alternate; /* Change image every 15 seconds */
+}
+
+@keyframes slideshow {
+  0% {
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.838)
+      ),
+      url('../../public/bg/construction.jpg');
+    opacity: 1; /* Initial opacity */
+  }
+  50% {
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.838)
+      ),
+      url('../../public/bg/cleaning-shore.jpg');
+    opacity: 1; /* Initial opacity */
+  }
+  100% {
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.838)
+      ),
+      url('../../public/bg/power-drb.jpg');
+    opacity: 1; /* Initial opacity */
+  }
+}
+
+.hero-content {
+  background-size: cover;
+  background-position: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.services {
+  background-image: url('../../public/bg/bg-vector.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.services .vector {
+}
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .hero {
+    background-attachment: scroll;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+}
