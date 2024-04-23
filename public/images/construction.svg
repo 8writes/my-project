@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+    <!-- Background -->
+    <rect width="400" height="100" fill="#ECEFF4" />
+
+    <!-- Waves -->
+    <path fill="#AEDFF7" d="M0 50 Q50 25, 100 50 T200 50 T300 50 T400 50 V100 H0 Z" />
+    <path fill="#7FB3D5" d="M0 60 Q50 35, 100 60 T200 60 T300 60 T400 60 V100 H0 Z" />
+    <path fill="#5A8CA0" d="M0 70 Q50 45, 100 70 T200 70 T300 70 T400 70 V100 H0 Z" />
+</svg>

@@ -112,7 +112,7 @@ const MobileNav = () => {
                       dropdownStates.services ? 'block' : 'hidden'
                     }`}>
                     {/* Dropdown content */}
-                    <div className='flex flex-col w-full text-base text-blue-500 opacity-90'>
+                    <div className='flex flex-col w-full text-base text-blue-500 opacity-90 py-3'>
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
                         href='#'>
@@ -205,7 +205,7 @@ const MobileNav = () => {
                       dropdownStates.projects ? 'block' : 'hidden'
                     }`}>
                     {/* Dropdown content */}
-                    <div className='flex flex-col w-80 text-base text-blue-500 opacity-90'>
+                    <div className='flex flex-col w-80 text-base text-blue-500 opacity-90 py-3'>
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
                         href='#'>
@@ -258,7 +258,7 @@ const MobileNav = () => {
                       dropdownStates.technical ? 'block' : 'hidden'
                     }`}>
                     {/* Dropdown content */}
-                    <div className='flex flex-col w-80 text-base'>
+                    <div className='flex flex-col w-80 text-base py-3'>
                       <Link
                         className=' border-transparent p-3 text-orange-500 hover:border-slate-200 scale-95'
                         href='#'>
@@ -311,7 +311,7 @@ const MobileNav = () => {
                       dropdownStates.company ? 'block' : 'hidden'
                     }`}>
                     {/* Dropdown content */}
-                    <div className='flex flex-col w-80 text-base text-blue-500 opacity-90'>
+                    <div className='flex flex-col w-80 text-base text-blue-500 opacity-90 py-3'>
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
                         href='#'>

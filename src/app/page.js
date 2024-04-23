@@ -1,4 +1,5 @@
 import Hero from "@/views/home/hero";
+import Projects from "@/views/home/projects";
 import Services from "@/views/home/services";
 import Image from "next/image";
 

@@ -20,29 +20,178 @@
 }
 
 .services {
-  background-image: url('../../public/bg/bg-vector.jpg');
   background-size: cover;
   background-position: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.services-left-content {
+  width: 40vw;
+}
+
+.services-right-content {
+  width: 40vw;
+}
+
+.services h1 {
+  font-size: 4.9rem;
+  line-height: 1;
+}
+
+.wrapper p {
+  font-family: 'Jost', sans-serif;
+}
+
+.card {
+  top: 15vh;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  color: #333;
+  padding: 40px;
+  border-left: solid 11px rgb(59 130 246);
+  margin-bottom: 20px;
+  height: 25rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card h2 {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  letter-spacing: 0.025em;
+}
+
+.card span {
+  display: block;
+  font-size: 14px;
+  color: #0c4eb9;
+}
+
+.card:nth-child(1) {
+  top: 15vh;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.647),
+      rgba(0, 0, 0, 0.661)
+    ),
+    url('/images/building.jpg');
+}
+
+.card:nth-child(2) {
+  top: 16vh;
+  left: 10vw; /* Adjusted the left property */
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.647),
+      rgba(0, 0, 0, 0.661)
+    ),
+    url('/images/construction-equipment.jpg');
+}
+
+.card:nth-child(3n) {
+  top: 17vh;
+  left: 20vw; /* Adjusted the left property */
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.647),
+      rgba(0, 0, 0, 0.661)
+    ),
+    url('/images/road.jpg');
+}
+
+.card:nth-child(4n) {
+  top: 18vh;
+  left: 30vw; /* Adjusted the left property */
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.647),
+      rgba(0, 0, 0, 0.661)
+    ),
+    url('/images/electrical.jpg');
+}
+
+.card:nth-child(5n) {
+  top: 19vh;
+  left: 40vw; /* Adjusted the left property */
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.647),
+      rgba(0, 0, 0, 0.661)
+    ),
+    url('/images/cleaning-shore.jpg');
 }
 
 /* Mobile Styles */
-@media (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .hero {
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
     background-attachment: scroll;
     background-image: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.831),
-      rgba(0, 0, 0, 0.829)
-    ),
-    url('../../public/bg/photo-collage.png.png');
+        90deg,
+        rgba(0, 0, 0, 0.831),
+        rgba(0, 0, 0, 0.829)
+      ),
+      url('../../public/bg/photo-collage.png.png');
+  }
+  .card {
+    padding: 20px;
+  }
+  .services-left-content {
+    width: 100vw;
+    font-family: 'Jost', sans-serif;
+  }
+
+  .services-right-content {
+    width: 88vw;
+  }
+
+  .services h1 {
+    font-size: 14vw;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .services p:nth-child(1) {
+    font-size: 0.9rem;
+    line-height: 1;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .card h2 {
+    font-size: 2rem;
+    line-height: 1;
   }
 }
 
 /* Tablet Styles */
 @media (min-width: 768px) and (max-width: 1023px) {
+  .services-left-content {
+    width: 90vw;
+  }
+
+  .services-right-content {
+    width: 90vw;
+  }
+
+  .services p:nth-child(1) {
+    font-size: 0.9rem;
+    line-height: 1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
 }
 
 /* Desktop Styles */

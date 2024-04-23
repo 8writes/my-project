@@ -21,9 +21,10 @@ const Hero = () => {
 
   useEffect(() => {
     controls.start({
-      opacity: Math.max(0, 1 - scrollY / 200), // Gradually fade out based on scroll position
+      opacity: Math.max(0, 1 - scrollY / 300), // Gradually fade out based on scroll position
       transition: {
-        duration: 0.2,
+        duration: 0.3,
+        damping: 8,
       },
     })
   }, [scrollY, controls])
@@ -44,12 +45,10 @@ const Hero = () => {
         animate={controls}
         className='hero-content flex p-2 md:p-5 lg:p-10 xl:p-20 flex-col gap-14 md:gap-10 uppercase'>
         <motion.h1
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 5,
-            type: 'spring',
-            damping: 9,
+            duration: 0.5,
           }}
           className='text-white text-center font-bold text-4xl md:text-7xl lg:text-8xl tracking-wide'>
           <span>Innovation</span>{' '}
@@ -58,13 +57,11 @@ const Hero = () => {
           Future.
         </motion.h1>
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 3,
-            type: 'spring',
-            delay: 0.8,
-            damping: 9,
+            duration: 0.5,
+            delay: 0.2,
           }}
           className='text-white text-center md:px-10 lg:px-20 xl:px-24 font-semibold text-base tracking-wide md:text-xl'>
           Leading civil and electrical engineering in Nigeria, delivering
