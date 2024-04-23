@@ -33,9 +33,7 @@ const Services = () => {
         opacity: 1,
         y: 0,
         transition: {
-          stiffness: 200,
-          damping: 10,
-          duration: 0.5,
+          duration: 0.3,
         },
       })
     } else {
@@ -53,25 +51,12 @@ const Services = () => {
       <div className='flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full bg-white'>
         <div className='services-left-content'>
           <div className='sticky w-11/12 top-36'>
-            <motion.p
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 10 }}
-              transition={{
-                duration: 0.3,
-              }}
-              className='text-slate-700'>
+            <p className='text-slate-700'>
               Delivering excellence to our clients.
-            </motion.p>
-            <motion.h1
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 10 }}
-              transition={{
-                duration: 0.3,
-                delay: 0.1,
-              }}
-              className='pb-10 text-blue-500 font-extrabold '>
+            </p>
+            <h1 className='pb-10 text-blue-500 font-extrabold '>
               ON-PO𝕀NT DYNAMICS SYNERGY
-            </motion.h1>
+            </h1>
             <span className='flex items-center justify-center mx-auto'>
               <Image
                 className=' w-fit'
@@ -81,17 +66,11 @@ const Services = () => {
                 alt=''
               />
             </span>
-            <motion.p
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 10 }}
-              transition={{
-                duration: 0.2,
-              }}
-              className='services-text md:text-base border-b-2 pb-5 border-slate-200 text-slate-800 pt-10 tracking-wide'>
+            <p className='services-text md:text-base border-b-2 pb-5 border-slate-200 text-slate-800 pt-10 tracking-wide'>
               We ensure that our clients' construction needs and requirements
               are fulfilled through accessible and cost-effective solutions that
               generate, retain, and enhance value for all stakeholders.
-            </motion.p>
+            </p>
           </div>
         </div>
         <div>

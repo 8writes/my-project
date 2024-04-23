@@ -150,10 +150,12 @@
   }
   .card {
     padding: 20px;
+    height: 30rem;
   }
   .services-left-content {
     width: 100vw;
     font-family: 'Jost', sans-serif;
+    margin-top: 5vh;
   }
 
   .services-right-content {
