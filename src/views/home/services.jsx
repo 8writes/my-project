@@ -72,13 +72,7 @@ const Services = () => {
               className='pb-10 text-blue-500 font-extrabold '>
               ON-PO𝕀NT DYNAMICS SYNERGY
             </motion.h1>
-            <motion.span
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 10 }}
-              transition={{
-                duration: 0.2,
-              }}
-              className='flex items-center justify-center mx-auto'>
+            <span className='flex items-center justify-center mx-auto'>
               <Image
                 className=' w-fit'
                 src={hr}
@@ -86,14 +80,14 @@ const Services = () => {
                 height={200}
                 alt=''
               />
-            </motion.span>
+            </span>
             <motion.p
               whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 10 }}
               transition={{
                 duration: 0.2,
               }}
-              className='text-sm md:text-base pl-2 border-b-2 pb-5 border-slate-200 text-slate-800 pt-10  tracking-tight'>
+              className='services-text md:text-base border-b-2 pb-5 border-slate-200 text-slate-800 pt-10 tracking-wide'>
               We ensure that our clients' construction needs and requirements
               are fulfilled through accessible and cost-effective solutions that
               generate, retain, and enhance value for all stakeholders.

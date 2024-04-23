@@ -146,8 +146,8 @@
       url('../../public/bg/photo-collage.png.png');
   }
   .hero-content h1 {
-  font-size: 10vw;
-}
+    font-size: 10vw;
+  }
   .card {
     padding: 20px;
   }
@@ -169,12 +169,13 @@
   .services p:nth-child(1) {
     font-size: 1.1rem;
     line-height: 1;
-    padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-weight: 600;
   }
-
+  .services-text {
+    font-size: 0.9rem;
+  }
   .card h2 {
     font-size: 2rem;
     line-height: 1;
