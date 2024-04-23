@@ -57,7 +57,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 10 }}
               transition={{
-                duration: 0.2,
+                duration: 0.3,
               }}
               className='text-slate-700'>
               Delivering excellence to our clients.
@@ -66,7 +66,8 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 10 }}
               transition={{
-                duration: 0.2,
+                duration: 0.3,
+                delay: 0.1,
               }}
               className='pb-10 text-blue-500 font-extrabold '>
               ON-PO𝕀NT DYNAMICS SYNERGY

@@ -50,7 +50,7 @@ const Hero = () => {
           transition={{
             duration: 0.5,
           }}
-          className='text-white text-center font-bold text-4xl md:text-7xl lg:text-8xl tracking-wide'>
+          className='text-white text-center font-bold  tracking-wide'>
           <span>Innovation</span>{' '}
           <span className='text-3xl md:text-6xl lg:text-7xl'>For a</span>{' '}
           <span className='text-blue-500'>𝕊𝕌𝕊𝕋𝔸𝕀ℕ𝔸𝔹𝕃𝔼 </span>{' '}

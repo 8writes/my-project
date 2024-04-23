@@ -18,7 +18,9 @@
   background-position: center;
   font-family: 'Oswald', sans-serif;
 }
-
+.hero-content h1 {
+  font-size: 5.1rem;
+}
 .services {
   background-size: cover;
   background-position: center;
@@ -143,6 +145,9 @@
       ),
       url('../../public/bg/photo-collage.png.png');
   }
+  .hero-content h1 {
+  font-size: 10vw;
+}
   .card {
     padding: 20px;
   }
