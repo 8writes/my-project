@@ -96,6 +96,7 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/construction-equipment.jpg');
+    z-index: 5;
 }
 
 .card:nth-child(3n) {
@@ -107,6 +108,7 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/road.jpg');
+      z-index: 10;
 }
 
 .card:nth-child(4n) {
@@ -118,6 +120,7 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/electrical.jpg');
+      z-index: 15;
 }
 
 .card:nth-child(5n) {
@@ -129,6 +132,7 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/cleaning-shore.jpg');
+      z-index: 20;
 }
 
 /* Mobile Styles */

@@ -67,9 +67,10 @@ const Services = () => {
               />
             </span>
             <p className='services-text md:text-base border-b-2 pb-5 border-slate-200 text-slate-800 pt-10 tracking-wide'>
-              We ensure that our clients' construction needs and requirements
-              are fulfilled through accessible and cost-effective solutions that
-              generate, retain, and enhance value for all stakeholders.
+            <span className=' font-semibold text-blue-500 text-2xl'>We</span> ensure that our clients'
+              construction needs and requirements are fulfilled through
+              accessible and cost-effective solutions that generate, retain, and
+              enhance value for all stakeholders.
             </p>
           </div>
         </div>
