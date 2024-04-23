@@ -56,6 +56,9 @@ const Services = () => {
             <motion.p
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 10 }}
+              transition={{
+                duration: 0.3,
+              }}
               className='text-slate-700'>
               Delivering excellence to our clients.
             </motion.p>
@@ -63,7 +66,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 10 }}
               transition={{
-                duration: 0.5,
+                duration: 0.3,
               }}
               className='pb-10 text-blue-500 font-extrabold '>
               ON-PO𝕀NT DYNAMICS SYNERGY
@@ -72,7 +75,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 10 }}
               transition={{
-                duration: 0.5,
+                duration: 0.3,
               }}
               className='flex items-center justify-center mx-auto'>
               <Image
@@ -87,7 +90,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 20 }}
               transition={{
-                duration: 0.5,
+                duration: 0.3,
               }}
               className='text-sm md:text-base pl-2 border-b-2 pb-5 border-slate-200 text-slate-800 pt-10  tracking-tight'>
               We ensure that our clients' construction needs and requirements
