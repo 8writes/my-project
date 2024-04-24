@@ -49,7 +49,7 @@ const Services = () => {
   return (
     <div className='services relative bg-white pb-10' id='services'>
       <svg
-        className='vector w-full absolute md:-bottom-52 -bottom-5 transform rotate-180'
+        className='vector w-full absolute -bottom-16 lg:-bottom-48 md:-bottom-28 transform rotate-180'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'>
         <path
@@ -73,7 +73,7 @@ const Services = () => {
                 alt=''
               />
             </span>
-            <p className='services-text md:text-base md:border-b-2 pb-5 border-slate-200 text-slate-800 pt-10 '>
+            <p className='services-text md:text-base text-slate-800 pt-10 '>
               <span className=' font-semibold text-blue-500 text-2xl'>𝕎𝕖</span>{' '}
               ensure that our clients' construction needs and requirements are
               fulfilled through accessible and cost-effective solutions that
