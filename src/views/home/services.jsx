@@ -47,7 +47,17 @@ const Services = () => {
   }, [isVisible, scrollY, controls])
 
   return (
-    <div className='services bg-white' id='services'>
+    <div className='services relative bg-white pb-10' id='services'>
+      <svg
+        className='vector w-full absolute md:-bottom-52 -bottom-5 transform rotate-180'
+        xmlns='http://www.w3.org/2000/svg'
+        viewBox='0 0 1440 320'>
+        <path
+          fill='#ffffff'
+          fillOpacity='1'
+          d='M0,64L48,80C96,96,192,128,288,154.7C384,181,480,203,576,202.7C672,203,768,181,864,160C960,139,1056,117,1152,112C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'
+        />
+      </svg>
       <div className='services-bg flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full pt-20 '>
         <div className='services-left-content'>
           <div className='sticky w-11/12 top-36'>

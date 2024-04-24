@@ -1,3 +1,4 @@
+import ServicesBtn from "@/components/services-btn";
 import Hero from "@/views/home/hero";
 import Projects from "@/views/home/projects";
 import Services from "@/views/home/services";
@@ -8,6 +9,8 @@ export default function Home() {
     <main className=" lg:min-h-screen py-10">
       <Hero />
       <Services />
+      <ServicesBtn />
+      <Projects />
     </main>
   );
 }
