@@ -36,7 +36,7 @@ const Hero = () => {
   return (
     <div className='hero relative px-5 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
       <svg
-        className='vector w-full absolute md:-bottom-10 -bottom-1.5'
+        className='vector w-full absolute md:-bottom-10 -bottom-5'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'>
         <path
