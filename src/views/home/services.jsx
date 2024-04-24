@@ -51,9 +51,7 @@ const Services = () => {
       <div className='flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full bg-white'>
         <div className='services-left-content'>
           <div className='sticky w-11/12 top-36'>
-            <p className='text-slate-700'>
-              Delivering excellence to our clients.
-            </p>
+           
             <h1 className='pb-10 text-blue-500 font-extrabold '>
               ON-PO𝕀NT DYNAMICS SYNERGY
             </h1>

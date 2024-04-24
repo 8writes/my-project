@@ -96,7 +96,7 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/construction-equipment.jpg');
-    z-index: 5;
+  z-index: 5;
 }
 
 .card:nth-child(3n) {
@@ -108,7 +108,7 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/road.jpg');
-      z-index: 10;
+  z-index: 10;
 }
 
 .card:nth-child(4n) {
@@ -120,7 +120,7 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/electrical.jpg');
-      z-index: 15;
+  z-index: 15;
 }
 
 .card:nth-child(5n) {
@@ -132,7 +132,11 @@
       rgba(0, 0, 0, 0.661)
     ),
     url('/images/cleaning-shore.jpg');
-      z-index: 20;
+  z-index: 20;
+}
+
+.get-started {
+  padding-top: 1vh;
 }
 
 /* Mobile Styles */
@@ -172,19 +176,22 @@
     text-align: center;
   }
 
-  .services p:nth-child(1) {
+ /* .services p:nth-child(1) {
     font-size: 1.1rem;
     line-height: 1;
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: 600;
-  }
+  }*/
   .services-text {
     font-size: 0.9rem;
   }
   .card h2 {
     font-size: 2rem;
     line-height: 1;
+  }
+  .get-started {
+    padding-top: 5vh;
   }
 }
 

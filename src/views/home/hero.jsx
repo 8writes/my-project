@@ -71,12 +71,12 @@ const Hero = () => {
           quality service.
         </motion.p>
       </motion.section>
-      <span class='pt-7 md:pt-0'>
+      <span className='get-started'>
         <Link href='#services'>
           <Image
             src={dropdown}
             alt='Dropdown Icon'
-            width={40}
+            width={50}
             loading='lazy'
             className={`animate-bounce `}
           />
