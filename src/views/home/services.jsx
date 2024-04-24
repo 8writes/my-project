@@ -81,36 +81,28 @@ const Services = () => {
                 CIVIL / MECHANICAL ENGINEERING WORKS
               </h2>
             </div>
-            <motion.div
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 50 }}
+            <div
               className='card lg:-ml-4 lg:mr-4 flex items-center'>
               <h2 className=' drop-shadow-2xl'>
                 Construction Materials / heavy duty equipment leasing
               </h2>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 50 }}
+            </div>
+            <div
               className='card lg:-ml-8 lg:mr-8 flex items-center'>
               <h2 className=' drop-shadow-2xl'>
                 Road Construction Works / Erosion Control
               </h2>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 50 }}
+            </div>
+            <div
               className='card lg:-ml-12 lg:mr-12 flex items-center'>
               <h2 className=' drop-shadow-2xl'>
                 Electrical Engineering / Installation
               </h2>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 50 }}
+            </div>
+            <div
               className='card lg:-ml-16 lg:mr-16 flex items-center'>
               <h2 className=' drop-shadow-2xl'>Waste Management</h2>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>
