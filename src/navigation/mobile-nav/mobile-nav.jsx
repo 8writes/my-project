@@ -33,7 +33,7 @@ const MobileNav = () => {
 
   return (
     <div className='block lg:hidden z-50 fixed w-full'>
-      <section className='mobile-nav flex items-center justify-between border-b-2 border-slate-200 bg-white py-1 px-5'>
+      <section className='mobile-nav flex items-center justify-between shadow bg-white py-1 px-5'>
         <div className='mobile-nav-logo'>
           <Link href='/'>
             <Image src={logo} alt='Company Logo' width={65} loading='eager' />

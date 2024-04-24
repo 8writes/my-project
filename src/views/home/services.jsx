@@ -47,8 +47,8 @@ const Services = () => {
   }, [isVisible, scrollY, controls])
 
   return (
-    <div className='services wrapper relative' id='services'>
-      <div className='flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full pt-20 bg-white'>
+    <div className='services bg-white' id='services'>
+      <div className='services-bg flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full pt-20 '>
         <div className='services-left-content'>
           <div className='sticky w-11/12 top-36'>
             <h1 className='pb-10 text-blue-500 font-extrabold '>
