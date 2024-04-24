@@ -156,7 +156,7 @@ const DesktopNav = () => {
           </div>
         </div>
         <div className='desktop-nav-end  mx-auto'>
-          <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-90 px-10 py-4 text-white uppercase hover:bg-white hover:shadow-2xl hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'>
+          <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-90 px-10 py-4 text-white uppercase hover:bg-white hover:shadow-2xl hover:text-blue-500 hover:border-blue-500 scale-95 hover:scale-100 transition-all'>
             Contact
           </button>
         </div>
