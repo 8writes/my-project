@@ -66,11 +66,11 @@ const Services = () => {
                 alt=''
               />
             </span>
-            <p className='services-text md:text-base border-b-2 pb-5 border-slate-200 text-slate-800 pt-10 '>
-            <span className=' font-semibold text-blue-500 text-2xl'>We</span> ensure that our clients'
-              construction needs and requirements are fulfilled through
-              accessible and cost-effective solutions that generate, retain, and
-              enhance value for all stakeholders.
+            <p className='services-text md:text-base md:border-b-2 pb-5 border-slate-200 text-slate-800 pt-10 '>
+              <span className=' font-semibold text-blue-500 text-2xl'>𝕎𝕖</span>{' '}
+              ensure that our clients' construction needs and requirements are
+              fulfilled through accessible and cost-effective solutions that
+              generate, retain, and enhance value for all stakeholders.
             </p>
           </div>
         </div>
@@ -81,26 +81,22 @@ const Services = () => {
                 CIVIL / MECHANICAL ENGINEERING WORKS
               </h2>
             </div>
-            <div
-              className='card lg:-ml-4 lg:mr-4 flex items-center'>
+            <div className='card lg:-ml-4 lg:mr-4 flex items-center'>
               <h2 className=' drop-shadow-2xl'>
                 Construction Materials / heavy duty equipment leasing
               </h2>
             </div>
-            <div
-              className='card lg:-ml-8 lg:mr-8 flex items-center'>
+            <div className='card lg:-ml-8 lg:mr-8 flex items-center'>
               <h2 className=' drop-shadow-2xl'>
                 Road Construction Works / Erosion Control
               </h2>
             </div>
-            <div
-              className='card lg:-ml-12 lg:mr-12 flex items-center'>
+            <div className='card lg:-ml-12 lg:mr-12 flex items-center'>
               <h2 className=' drop-shadow-2xl'>
                 Electrical Engineering / Installation
               </h2>
             </div>
-            <div
-              className='card lg:-ml-16 lg:mr-16 flex items-center'>
+            <div className='card lg:-ml-16 lg:mr-16 flex items-center'>
               <h2 className=' drop-shadow-2xl'>Waste Management</h2>
             </div>
           </div>
