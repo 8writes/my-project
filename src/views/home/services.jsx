@@ -47,7 +47,7 @@ const Services = () => {
   }, [isVisible, scrollY, controls])
 
   return (
-    <div className='services wrapper relative'>
+    <div className='services wrapper relative' id='services'>
       <div className='flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full bg-white'>
         <div className='services-left-content'>
           <div className='sticky w-11/12 top-36'>
@@ -102,6 +102,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      
     </div>
   )
 }

@@ -71,7 +71,8 @@ const MobileNav = () => {
             duration: 0.2,
           },
         }}>
-        <div className='mobile-menu h-screen overflow-y-auto shadow-2xl bg-white w-full border-r-2 border-slate-200'>
+        <div
+          className={`mobile-menu h-screen ${isMenuOpen ? "block" : "hidden"} overflow-y-auto shadow-2xl bg-white w-full border-r-2 border-slate-200`}>
           <div className='mobile-menu-link pt-10 pb-10'>
             <div className='flex flex-col p-5 gap-7 font-semibold text-slate-700 uppercase text-lg'>
               <div className='relative group'>

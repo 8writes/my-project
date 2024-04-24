@@ -3,6 +3,10 @@
 import { motion, useAnimation } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
+import dropdown from '../../../public/images/down-chevron.png'
+import Image from 'next/image'
+import Link from 'next/link'
+
 const Hero = () => {
   const controls = useAnimation()
   const [scrollY, setScrollY] = useState(0)
@@ -30,7 +34,7 @@ const Hero = () => {
   }, [scrollY, controls])
 
   return (
-    <div className='hero relative px-5 md:p-14 lg:p-16 flex items-center justify-center w-full md:min-h-screen'>
+    <div className='hero relative px-5 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
       <svg
         className='vector w-full absolute md:-bottom-10 -bottom-1.5'
         xmlns='http://www.w3.org/2000/svg'
@@ -53,8 +57,7 @@ const Hero = () => {
           className='text-white text-center font-bold  tracking-wide'>
           <span>Innovation</span>{' '}
           <span className='text-3xl md:text-6xl lg:text-7xl'>For a</span>{' '}
-          <span className='text-blue-500'>𝕊𝕌𝕊𝕋𝔸𝕀ℕ𝔸𝔹𝕃𝔼 </span>{' '}
-          Future.
+          <span className='text-blue-500'>𝕊𝕌𝕊𝕋𝔸𝕀ℕ𝔸𝔹𝕃𝔼 </span> Future.
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 15 }}
@@ -68,6 +71,17 @@ const Hero = () => {
           quality service.
         </motion.p>
       </motion.section>
+      <span class='pt-7 md:pt-0'>
+        <Link href='#services'>
+          <Image
+            src={dropdown}
+            alt='Dropdown Icon'
+            width={40}
+            loading='lazy'
+            className={`animate-bounce `}
+          />
+        </Link>
+      </span>
     </div>
   )
 }
