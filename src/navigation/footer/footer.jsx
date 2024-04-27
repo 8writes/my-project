@@ -18,7 +18,7 @@ const Footer = () => {
             loading='eager'
             className='pb-5'
           />
-          <p className='text-sm leading-6'>
+          <p className='text-sm text-white leading-6'>
             Providing services in general contracting, oil and gas, construction
             management and pre-engineered metal buildings services to a broad
             range of commercial and industrial clients throughout Nigeria.
@@ -41,7 +41,7 @@ const Footer = () => {
           </ul>
         </div>*/}
 
-        <div className='w-full lg:w-fit'>
+        <div className='w-full lg:w-fit text-white'>
           <h1 className='uppercase font-bold pb-10'>Company</h1>
           <ul className=' text-base md:text-sm grid gap-5'>
             <li>
@@ -65,27 +65,27 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='w-full lg:w-fit'>
+        <div className='w-full lg:w-fit text-white'>
           <h1 className='uppercase font-bold pb-10'>Technical Partners</h1>
           <ul className='text-base md:text-sm grid gap-5 '>
             <li>
               {' '}
               <Link
-                className='text-white hover:text-orange-500 hover:underline'
+                className=' hover:text-orange-500 hover:underline'
                 href='#'>
                 Efinor Sea Cleaner France
               </Link>
             </li>
             <li>
               <Link
-                className='text-white hover:text-green-500 hover:underline'
+                className=' hover:text-green-500 hover:underline'
                 href='#'>
                 Hoppecke Batterien Germany
               </Link>
             </li>
           </ul>
         </div>
-        <div className='w-full lg:w-fit'>
+        <div className='w-full lg:w-fit text-white'>
           <h1 className='uppercase font-bold pb-10'>Resources</h1>
           <ul className=' text-base md:text-sm grid gap-5 '>
             <li>
@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
       </section>
       <div className='footer-bar flex justify-center'>
-        <p className='text-xs'>© 2024 ON-POINT DYNAMICS SYNERGY </p>
+        <p className='text-xs text-white'>© 2024 ON-POINT DYNAMICS SYNERGY </p>
       </div>
     </div>
   )

@@ -34,7 +34,9 @@ const Hero = () => {
   }, [scrollY, controls])
 
   return (
-    <div id='hero' className='hero relative px-5 pt-20 pb-10 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
+    <div
+      id='hero'
+      className='hero relative px-5 pt-20 pb-5 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
       <svg
         className='vector w-full absolute lg:-bottom-20 -bottom-1'
         xmlns='http://www.w3.org/2000/svg'
@@ -78,7 +80,7 @@ const Hero = () => {
             alt='Dropdown Icon'
             width={50}
             loading='lazy'
-            className={`animate-bounce `}
+            className={`animate-bounce pt-5`}
           />
         </Link>
       </span>

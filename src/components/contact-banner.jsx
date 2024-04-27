@@ -10,7 +10,7 @@ const ContactBanner = () => {
   return (
     <div className='relative'>
       <div className='absolute -bottom-14 w-full text-xl md:text-2xl flex font-semibold flex-wrap justify-between lg:px-20 '>
-        <div className='flex rounded-lg flex-wrap w-full justify-between'>
+        <div className='flex text-white rounded-lg flex-wrap w-full justify-between'>
           <h1 className='flex-1 text-2xl text-center p-5 lg:p-10 lg:px-10 lg:py-10 bg-blue-600'>
             Business Enquiries and Consultations :
           </h1>

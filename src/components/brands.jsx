@@ -10,7 +10,7 @@ import brand4 from '../../public/brands/rea-logo.png'
 
 const Brands = () => {
   return (
-    <div className='bg-white pb-36 pt-10  p-5 lg:p-20'>
+    <div className='bg-white pb-40 pt-16 p-5 lg:p-20'>
       <div className='pb-5'>
         <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
           Technical Partners & Clients
