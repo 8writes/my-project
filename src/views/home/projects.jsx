@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 import image1 from '../../../public/images/dam-constuction.jpg'
 import image2 from '../../../public/images/reconstroction.jpg'
-import image3 from '../../../public/images/estate.jpg'
+import image3 from '../../../public/images/renovation.jpg'
 import Link from 'next/link'
 
 const Projects = () => {
@@ -26,8 +26,8 @@ const Projects = () => {
           />
           <div className='absolute top-40 lg:top-60 px-2 md:px-4'>
             <h1 className='lg:group-hover:-translate-y-10 pb-10 lg:pb-0 delay-100 ease-in-out lg:group-hover:text-white transition-all lg:translate-y-10 lg:text-transparent text-white font-bold text-xl md:text-2xl uppercase'>
-              Fencing for Niger Delta Power Holding Company designated staff
-              estate Gbarain Power Station Bayelsa.
+              retaining work project for Niger Delta Power Holding Company at
+              omotosho Power plant Ondo State.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
           </div>
@@ -40,8 +40,8 @@ const Projects = () => {
           />
           <div className='absolute top-40 lg:top-60 px-2 md:px-4'>
             <h1 className='lg:group-hover:-translate-y-10 delay-100  pb-10 lg:pb-0 ease-in-out lg:group-hover:text-white transition-all lg:translate-y-10 lg:text-transparent text-white font-bold text-xl md:text-2xl uppercase'>
-              Fencing for Niger Delta Power Holding Company designated staff
-              estate Gbarain Power Station Bayelsa.
+              steam turbine roofing for Niger Delta Power Holding Company at
+              olorunshogo Power plant Ogun State.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
           </div>
@@ -54,8 +54,8 @@ const Projects = () => {
           />
           <div className='absolute top-40 lg:top-60 px-2 md:px-4'>
             <h1 className='lg:group-hover:-translate-y-10 delay-100  pb-10 lg:pb-0 ease-in-out lg:group-hover:text-white transition-all lg:translate-y-10 lg:text-transparent text-white font-bold text-xl md:text-2xl uppercase'>
-              Fencing for Niger Delta Power Holding Company designated staff
-              estate Gbarain Power Station Bayelsa.
+              renovation project for Niger Delta Power Holding Company
+              at Gbarain Bayelsa state.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
           </div>
