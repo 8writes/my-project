@@ -3,7 +3,7 @@
 import { motion, useAnimation } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
-import dropdown from '../../../public/images/down-chevron.png'
+import dropdown from '../../../public/images/down-arrow.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -34,9 +34,9 @@ const Hero = () => {
   }, [scrollY, controls])
 
   return (
-    <div className='hero relative px-5 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
+    <div id='hero' className='hero relative px-5 pt-20 pb-10 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
       <svg
-        className='vector w-full absolute md:-bottom-10 -bottom-5'
+        className='vector w-full absolute lg:-bottom-20 -bottom-1'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'>
         <path
@@ -47,14 +47,14 @@ const Hero = () => {
       </svg>
       <motion.section
         animate={controls}
-        className='hero-content flex p-2 md:p-5 lg:p-10 xl:p-20 flex-col gap-14 md:gap-10 uppercase'>
+        className='hero-content flex p-2 md:p-5 lg:p-10 xl:p-20 flex-col gap-5 md:gap-14 md:gap-10 uppercase'>
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
           }}
-          className='text-white text-center font-bold  tracking-wide'>
+          className='text-white text-center font-bold tracking-wide'>
           <span>Innovation</span>{' '}
           <span className='text-3xl md:text-6xl lg:text-7xl'>For a</span>{' '}
           Sustainable Future.
@@ -72,7 +72,7 @@ const Hero = () => {
         </motion.p>
       </motion.section>
       <span className='get-started'>
-        <Link href='#services'>
+        <Link href='#about'>
           <Image
             src={dropdown}
             alt='Dropdown Icon'

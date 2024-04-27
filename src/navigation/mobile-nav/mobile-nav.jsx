@@ -100,7 +100,7 @@ const MobileNav = () => {
                       }`}
                     />
                   </div>
-                  <motion.div
+                {/**   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{
                       opacity: dropdownStates.services ? 1 : 0,
@@ -112,7 +112,7 @@ const MobileNav = () => {
                     className={`relative ml-2 border-l-2 border-slate-200 bg-white ${
                       dropdownStates.services ? 'block' : 'hidden'
                     }`}>
-                    {/* Dropdown content */}
+                    
                     <div className='flex flex-col w-full text-base text-blue-500 opacity-90 py-3'>
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
@@ -165,8 +165,8 @@ const MobileNav = () => {
                         Electrical Engineering/Instrumentation
                       </Link>
                     </div>
-                  </motion.div>
-                </motion.div>
+                  </motion.div>*/}
+                </motion.div> 
               </div>
               <div className='relative group'>
                 <motion.div

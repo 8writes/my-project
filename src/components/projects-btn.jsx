@@ -4,12 +4,12 @@
 
 import Link from 'next/link'
 
-const ServicesBtn = () => {
+const ProjectsBtn = () => {
   return (
-    <div className='services-btn flex justify-center pt-14 pb-24 lg:pt-24 md:pb-32'>
-      <button className='group bg-transparent text-white uppercase border-2 border-blue-500 scale-95 transition-all font-medium shadow-2xl py-2 w-5/6 md:w-1/3 md:text-xl rounded-sm'>
+    <div className='services-btn flex justify-center py-10'>
+      <button className='group bg-transparent text-white uppercase border-2 border-blue-500 scale-95 transition-all font-medium shadow-2xl py-2 w-5/6 md:w-1/4 md:text-xl rounded-sm '>
         <Link href='#' className='flex items-center justify-center'>
-          Explore all our services
+          View More
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-7 w-7 group-hover:translate-x-4 text-transparent group-hover:text-white transition-all'
@@ -29,4 +29,4 @@ const ServicesBtn = () => {
   )
 }
 
-export default ServicesBtn
+export default ProjectsBtn

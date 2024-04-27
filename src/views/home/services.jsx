@@ -7,6 +7,7 @@ import { motion, useAnimation } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 
 import hr from '../../../public/images/hr.svg'
+import AboutUs from '../about/about'
 const Services = () => {
   const controls = useAnimation()
   const [scrollY, setScrollY] = useState(0)
@@ -47,9 +48,9 @@ const Services = () => {
   }, [isVisible, scrollY, controls])
 
   return (
-    <div className='services relative bg-white pb-10' id='services'>
+    <div className='services relative pb-10 bg-white'>
       <svg
-        className='vector w-full absolute -bottom-16 lg:-bottom-48 md:-bottom-28 transform rotate-180'
+        className='vector w-full absolute -bottom-16 lg:-bottom-52 md:-bottom-28 transform rotate-180'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'>
         <path
@@ -58,7 +59,8 @@ const Services = () => {
           d='M0,64L48,80C96,96,192,128,288,154.7C384,181,480,203,576,202.7C672,203,768,181,864,160C960,139,1056,117,1152,112C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'
         />
       </svg>
-      <div className='services-bg flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full pt-20 '>
+      <AboutUs />
+      <div className='services-bg flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full pt-10 md:pt-16 '>
         <div className='services-left-content'>
           <div className='sticky w-11/12 top-36'>
             <h1 className='pb-10 text-blue-500 font-extrabold '>
@@ -73,12 +75,13 @@ const Services = () => {
                 alt=''
               />
             </span>
-            <p className='services-text md:text-base text-slate-800 pt-10 '>
-              <span className=' font-semibold text-blue-500 text-2xl'>𝕎𝕖</span>{' '}
+            <p className='services-text md:text-base text-slate-800 py-10 '>
+              <span className=' font-semibold text-blue-500 text-2xl'>We</span>{' '}
               ensure that our clients' construction needs and requirements are
               fulfilled through accessible and cost-effective solutions that
               generate, retain, and enhance value for all stakeholders.
             </p>
+            <div className=' h-0.5 bg-blue-400'></div>
           </div>
         </div>
         <div>
