@@ -20,7 +20,7 @@ const DesktopNav = () => {
           <div className='flex font-normal text-slate-800 uppercase text-sm'>
             <div className='relative group'>
               <Link
-                className='border-l-2 border-slate-200 p-9 group-hover:shadow-md '
+                className='border-l-2 border-slate-200 p-9 group-hover:shadow-lg '
                 href='#'>
                 Services
               </Link>
@@ -84,7 +84,7 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-md '
+                className='border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-lg '
                 href='#'>
                 Projects
               </Link>

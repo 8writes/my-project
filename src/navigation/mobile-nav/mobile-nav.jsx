@@ -90,15 +90,6 @@ const MobileNav = () => {
                     className='border-slate-200 flex items-center justify-between '
                     onClick={() => toggleDropdown('services')}>
                     Services
-                    <Image
-                      src={dropdown}
-                      alt='Dropdown Icon'
-                      width={30}
-                      loading='lazy'
-                      className={`transform origin-center transition-all ${
-                        dropdownStates.services ? 'rotate-180' : 'rotate-0'
-                      }`}
-                    />
                   </div>
                 {/**   <motion.div
                     initial={{ opacity: 0, y: -10 }}
@@ -183,17 +174,8 @@ const MobileNav = () => {
                     className='border-slate-200 flex items-center justify-between '
                     onClick={() => toggleDropdown('projects')}>
                     Projects
-                    <Image
-                      src={dropdown}
-                      alt='Dropdown Icon'
-                      width={30}
-                      loading='lazy'
-                      className={`transform origin-center transition-all ${
-                        dropdownStates.projects ? 'rotate-180' : 'rotate-0'
-                      }`}
-                    />
                   </div>
-                  <motion.div
+                  {/*<motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{
                       opacity: dropdownStates.projects ? 1 : 0,
@@ -205,7 +187,7 @@ const MobileNav = () => {
                     className={`relative ml-2 border-l-2 border-slate-200 bg-white ${
                       dropdownStates.projects ? 'block' : 'hidden'
                     }`}>
-                    {/* Dropdown content */}
+                     Dropdown content 
                     <div className='flex flex-col w-80 text-base text-blue-500 opacity-90 py-3'>
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
@@ -218,7 +200,7 @@ const MobileNav = () => {
                         Finished Projects
                       </Link>
                     </div>
-                  </motion.div>
+                  </motion.div>*/}
                 </motion.div>
               </div>
               <div className='relative group'>
