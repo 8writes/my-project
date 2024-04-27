@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <Services />
       <ServicesBtn />
-      
+      <Projects />
       <ProjectsBtn />
       <Brands />
       <ContactBanner />
