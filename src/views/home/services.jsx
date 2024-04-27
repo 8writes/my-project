@@ -76,7 +76,7 @@ const Services = () => {
               />
             </span>
             <p className='services-text md:text-base text-slate-800 py-10 '>
-              <span className=' font-semibold text-blue-500 text-2xl'>We</span>{' '}
+              <span className=' font-semibold text-blue-500 text-base'>We</span>{' '}
               ensure that our clients' construction needs and requirements are
               fulfilled through accessible and cost-effective solutions that
               generate, retain, and enhance value for all stakeholders.
