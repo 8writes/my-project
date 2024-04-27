@@ -115,7 +115,7 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <div className='footer-bar flex justify-center'>
+      <div className='footer-bar flex justify-center pt-10'>
         <p className='text-xs text-white'>© 2024 ON-POINT DYNAMICS SYNERGY </p>
       </div>
     </div>
