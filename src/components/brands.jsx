@@ -18,12 +18,14 @@ const Brands = () => {
         </p>
         <div className=' w-32 h-1 bg-blue-500'></div>
       </div>
-      <section className='flex bg-white gap-10 pb-10 overflow-x-auto md:overflow-hidden justify-center'>
-        <Image src={brand4} alt='' width={200} height={50} />
-        <Image src={brand5} alt='' width={200} height={50} />
-        <Image src={brand1} alt='' width={200} height={50} />
-        <Image src={brand2} alt='' width={200} height={50} />
-        <Image src={brand3} alt='' width={200} height={50} />
+      <section className='flex w-full bg-white justify-center'>
+        <div className='flex gap-10 items-center pb-10 overflow-x-auto'>
+          <Image src={brand4} alt='' width={200} height={50} />
+          <Image src={brand5} alt='' width={200} height={50} />
+          <Image src={brand1} alt='' width={200} height={50} />
+          <Image src={brand2} alt='' width={200} height={50} />
+          <Image src={brand3} alt='' width={200} height={50} />
+        </div>
       </section>
     </div>
   )
