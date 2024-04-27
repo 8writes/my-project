@@ -13,10 +13,10 @@ const AboutUs = () => {
       id='about'>
       <div className=' w-full lg:flex-1'>
         <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
-          Services
+          About
         </p>
 
-        <h1 className='font-extrabold pb-8 text-slate-800 text-3xl md:text-4xl'>
+        <h1 className='font-extrabold pb-10 text-slate-800 text-3xl md:text-4xl'>
           Building Nigeria's Future, One Project at a Time.
         </h1>
 
@@ -29,7 +29,7 @@ const AboutUs = () => {
           and pre-engineered metal buildings, we serve commercial and industrial
           clients with excellence and integrity.
         </p>
-        <div className='uppercase bg-blue-500 text-white w-fit text-xs tracking-wide font-semibold'>
+        <div className='uppercase bg-blue-500 text-white w-fit text-xs my-1 tracking-wide font-semibold'>
           <Link href='#' className='group flex items-center py-1 px-3'>
             Learn About Us{' '}
             <svg

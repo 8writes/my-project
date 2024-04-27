@@ -60,11 +60,15 @@ const Services = () => {
         />
       </svg>
       <AboutUs />
-      <div className='services-bg flex flex-wrap justify-center sticky top-96 px-6 gap-10 w-full pt-10 md:pt-16 '>
+      <div className='services-bg flex flex-wrap justify-center sticky top-96 px-5 gap-10 w-full pt-10 md:pt-16 '>
         <div className='services-left-content'>
-          <div className='sticky w-11/12 top-36'>
-            <h1 className='pb-10 text-blue-500 font-extrabold '>
+          <div className='sticky w-11/12 top-40'>
+            <p className='uppercase text-blue-500 font-bold tracking-wide pb-5'>
               ON-PO𝕀NT DYNAMICS SYNERGY
+            </p>
+
+            <h1 className='services-left-content-h1 pb-10 text-blue-500 font-extrabold '>
+              Services
             </h1>
             <span className='flex items-center justify-center mx-auto'>
               <Image
@@ -75,8 +79,8 @@ const Services = () => {
                 alt=''
               />
             </span>
-            <p className='services-text md:text-base text-slate-800 py-10 '>
-              <span className=' font-semibold text-blue-500 text-base'>We</span>{' '}
+            <p className='services-text text-base font-medium text-slate-800 py-10 '>
+              <span className=' font-semibold text-blue-500 text-xl'>We</span>{' '}
               ensure that our clients' construction needs and requirements are
               fulfilled through accessible and cost-effective solutions that
               generate, retain, and enhance value for all stakeholders.

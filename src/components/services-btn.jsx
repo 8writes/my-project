@@ -12,7 +12,7 @@ const ServicesBtn = () => {
           Explore all our services
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-7 w-7 group-hover:translate-x-4 text-transparent group-hover:text-white transition-all'
+            className='h-7 w-7 group-hover:translate-x-4 ml-1 text-white transition-all'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'>

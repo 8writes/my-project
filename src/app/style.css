@@ -33,7 +33,7 @@
   width: 40vw;
 }
 
-.services h1:nth-child(1) {
+.services-left-content-h1 {
   font-size: 4.9rem;
   line-height: 1;
 }
