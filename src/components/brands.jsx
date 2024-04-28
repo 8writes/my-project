@@ -1,5 +1,4 @@
 /** @format */
-
 'use client'
 
 import React, { useRef, useEffect } from 'react'
@@ -27,16 +26,6 @@ const Brands = () => {
           container.scrollLeft += 1 // Change the scroll direction and speed as needed
         }, scrollSpeed)
       }
-
-      container.addEventListener('mouseenter', () => {
-        clearInterval(intervalId)
-      })
-
-      container.addEventListener('mouseleave', () => {
-        intervalId = setInterval(() => {
-          container.scrollLeft += 1 // Change the scroll direction and speed as needed
-        }, scrollSpeed)
-      })
     }
 
     return () => clearInterval(intervalId)
@@ -67,3 +56,4 @@ const Brands = () => {
 }
 
 export default Brands
+
