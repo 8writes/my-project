@@ -28,8 +28,8 @@ const Projects = () => {
       <div className='flex flex-wrap w-full'>
         <motion.div
           key={`first-div-${1}`}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           transition={{
             duration: 0.4,
             delay: 0.1,
@@ -51,8 +51,8 @@ const Projects = () => {
         </motion.div>
         <motion.div
           key={`first-div-${2}`}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           transition={{
             duration: 0.4,
             delay: 0.2,
@@ -74,8 +74,8 @@ const Projects = () => {
         </motion.div>
         <motion.div
           key={`first-div-${3}`}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           transition={{
             duration: 0.4,
             delay: 0.3,
