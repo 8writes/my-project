@@ -27,6 +27,7 @@ const Projects = () => {
       </motion.div>
       <div className='flex flex-wrap w-full'>
         <motion.div
+          key={`first-div-${1}`}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -48,6 +49,7 @@ const Projects = () => {
           </div>
         </motion.div>
         <motion.div
+          key={`first-div-${2}`}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -69,6 +71,7 @@ const Projects = () => {
           </div>
         </motion.div>
         <motion.div
+          key={`first-div-${3}`}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
