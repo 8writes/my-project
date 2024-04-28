@@ -5,13 +5,21 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import arrowRight from '../../../public/images/right-arrow.png'
+import { motion } from 'framer-motion'
 
 const AboutUs = () => {
   return (
     <div
       className='about-us flex flex-wrap justify-center gap-10 px-5 md:px-10 lg:px-28 pt-11 md:pb-10'
       id='about'>
-      <div className=' w-full lg:flex-1'>
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 0.5,
+          delay: 0.2,
+        }}
+        className=' w-full lg:flex-1'>
         <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
           About
         </p>
@@ -21,8 +29,15 @@ const AboutUs = () => {
         </h1>
 
         <div className=' w-32 h-1 bg-blue-400'></div>
-      </div>
-      <div className='my-auto w-full lg:flex-1 flex flex-col gap-5'>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 0.5,
+          delay: 0.2,
+        }}
+        className='my-auto w-full lg:flex-1 flex flex-col gap-5'>
         <p className='text-slate-800 text-base pt-3 font-medium'>
           We are a leading construction company in Nigeria. Specializing in
           general contracting, oil and gas services, construction management,
@@ -47,7 +62,7 @@ const AboutUs = () => {
             </svg>
           </Link>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }

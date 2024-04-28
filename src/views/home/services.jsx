@@ -61,7 +61,14 @@ const Services = () => {
       </svg>
       <AboutUs />
       <div className='services-bg flex flex-wrap justify-center sticky top-96 px-5 gap-10 w-full pt-10 md:pt-16 '>
-        <div className='services-left-content'>
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.2,
+          }}
+          className='services-left-content'>
           <div className='sticky w-11/12 top-40'>
             <p className='uppercase text-blue-500 font-bold tracking-wide pb-5'>
               ON-PO𝕀NT DYNAMICS SYNERGY
@@ -87,7 +94,7 @@ const Services = () => {
             </p>
             <div className=' h-0.5 bg-blue-400'></div>
           </div>
-        </div>
+        </motion.div>
         <div>
           <div className='services-right-content'>
             <div className='card flex items-center'>

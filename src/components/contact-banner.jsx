@@ -4,6 +4,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import mail from '../../public/images/mail.png'
 
 const ContactBanner = () => {
@@ -20,9 +21,9 @@ const ContactBanner = () => {
             {' '}
             <Image
               src={mail}
-                          alt=''
-                          width={30}
-                          height={30}
+              alt=''
+              width={30}
+              height={30}
               className='group-hover:-rotate-6 lg:-translate-x-1 lg:group-hover:translate-x-1 transition-all'
             />
             <p className='text-xl'>onpointsynergyltd@gmail.com</p>
