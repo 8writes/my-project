@@ -18,7 +18,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{
           duration: 0.2,
-          delay: 0.2,
+          delay: 0.1,
         }}
         className='absolute -top-10 z-10 shadow-2xl py-5 px-16 bg-blue-500'>
         <h1 className='text-2xl md:text-4xl uppercase text-white font-semibold'>
