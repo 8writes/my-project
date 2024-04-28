@@ -9,7 +9,7 @@ import arrowRight from '../../../public/images/right-arrow.png'
 const AboutUs = () => {
   return (
     <div
-      className='about-us flex flex-wrap gap-10 px-5 lg:px-28 pt-11 md:pb-10'
+      className='about-us flex flex-wrap justify-center gap-10 px-5 md:px-10 lg:px-28 pt-11 md:pb-10'
       id='about'>
       <div className=' w-full lg:flex-1'>
         <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>

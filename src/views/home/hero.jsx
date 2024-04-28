@@ -36,7 +36,7 @@ const Hero = () => {
   return (
     <div
       id='hero'
-      className='hero relative px-5 pt-20 pb-5 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
+      className='hero relative px-5 py-20 pb-5 md:p-14 lg:p-16 flex flex-col items-center justify-center w-full md:min-h-screen'>
       <svg
         className='vector w-full absolute lg:-bottom-20 -bottom-1'
         xmlns='http://www.w3.org/2000/svg'
@@ -49,7 +49,7 @@ const Hero = () => {
       </svg>
       <motion.section
         animate={controls}
-        className='hero-content flex p-2 md:p-5 lg:p-10 xl:p-20 flex-col gap-5 md:gap-14 md:gap-10 uppercase'>
+        className='hero-content my-auto flex p-2 md:p-5 lg:p-10 xl:p-20 flex-col gap-5 md:gap-10 uppercase'>
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
