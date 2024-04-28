@@ -26,7 +26,14 @@ const Projects = () => {
         </h1>
       </motion.div>
       <div className='flex flex-wrap w-full'>
-        <div className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group '>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.4,
+            delay: 0.1,
+          }}
+          className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group '>
           <Image
             src={image1}
             alt=''
@@ -39,8 +46,15 @@ const Projects = () => {
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
           </div>
-        </div>
-        <div className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group '>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.4,
+            delay: 0.2,
+          }}
+          className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group '>
           <Image
             src={image2}
             alt=''
@@ -53,8 +67,15 @@ const Projects = () => {
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
           </div>
-        </div>
-        <div className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1  relative group '>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.4,
+            delay: 0.3,
+          }}
+          className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1  relative group '>
           <Image
             src={image3}
             alt=''
@@ -67,7 +88,7 @@ const Projects = () => {
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
