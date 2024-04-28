@@ -4,10 +4,13 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 import logo from '../../../public/logo/logo.png'
 
 const DesktopNav = () => {
+  const pathname = usePathname()
+
   return (
     <div className='hidden lg:block fixed w-full z-50'>
       <section className='desktop-nav flex items-center justify-between border-b-2 border-slate-200 bg-white p-1'>
@@ -20,8 +23,10 @@ const DesktopNav = () => {
           <div className='flex font-normal text-slate-800 uppercase text-sm'>
             <div className='relative group'>
               <Link
-                className='border-l-2 border-slate-200 p-9 group-hover:shadow-lg '
-                href='#'>
+                className={`border-l-2 border-slate-200 p-9 group-hover:shadow-lg ${
+                  pathname === '/services' ? 'text-blue-500' : 'text-slate-800'
+                }`}
+                href='services'>
                 Services
               </Link>
               {/**  <div className='absolute border-l-2 pb-1 font-semibold border-t-2 border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
@@ -84,8 +89,10 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-lg '
-                href='#'>
+                className={`border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-lg ${
+                  pathname === '/projects' ? 'text-blue-500' : 'text-slate-800'
+                }`}
+                href='projects'>
                 Projects
               </Link>
               {/*  <div className='absolute border-l-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-2xl hidden group-hover:flex'>
@@ -107,7 +114,7 @@ const DesktopNav = () => {
             <div className='relative group'>
               <Link
                 className='border-r-2 border-slate-200 p-9 group-hover:shadow-2xl '
-                href='partners'>
+                href='#'>
                 Technical Partners
               </Link>
               <div className='absolute border-r-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-2xl hidden group-hover:flex'>

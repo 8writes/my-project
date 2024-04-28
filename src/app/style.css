@@ -18,12 +18,13 @@
   background-position: center;
   font-family: 'Oswald', sans-serif;
 }
+
 .hero-content h1 {
   font-size: 5.1rem;
 }
 
 .hero p {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 .services {
   font-family: Neuemontreal, sans-serif;

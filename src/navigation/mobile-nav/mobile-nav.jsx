@@ -3,6 +3,7 @@
 'use client'
 
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -12,6 +13,7 @@ import closeMenu from '../../../public/images/close.png'
 import dropdown from '../../../public/images/down.png'
 
 const MobileNav = () => {
+  const pathname = usePathname()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [dropdownStates, setDropdownStates] = useState({
     services: false,
@@ -35,7 +37,7 @@ const MobileNav = () => {
     <div className='block lg:hidden z-50 fixed w-full'>
       <section className='mobile-nav flex items-center justify-between shadow bg-white py-1 px-5'>
         <div className='mobile-nav-logo'>
-          <Link href='/'>
+          <Link href='/' onClick={toggleMenu}>
             <Image src={logo} alt='Company Logo' width={65} loading='eager' />
           </Link>
         </div>
@@ -72,7 +74,9 @@ const MobileNav = () => {
           },
         }}>
         <div
-          className={`mobile-menu h-screen ${isMenuOpen ? "block" : "hidden"} overflow-y-auto shadow-2xl bg-white w-full border-r-2 border-slate-200`}>
+          className={`mobile-menu h-screen ${
+            isMenuOpen ? 'block' : 'hidden'
+          } overflow-y-auto shadow-2xl bg-white w-full border-r-2 border-slate-200`}>
           <div className='mobile-menu-link pt-10 pb-10'>
             <div className='flex flex-col p-5 gap-7 font-semibold text-slate-700 uppercase text-lg'>
               <div className='relative group'>
@@ -86,12 +90,17 @@ const MobileNav = () => {
                       delay: 0.3,
                     },
                   }}>
-                  <div
-                    className='border-slate-200 flex items-center justify-between '
-                    onClick={() => toggleDropdown('services')}>
+                  <Link
+                    href='services'
+                    className={`border-slate-200 flex items-center justify-between  ${
+                      pathname === '/services'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    onClick={toggleMenu}>
                     Services
-                  </div>
-                {/**   <motion.div
+                  </Link>
+                  {/**   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{
                       opacity: dropdownStates.services ? 1 : 0,
@@ -157,7 +166,7 @@ const MobileNav = () => {
                       </Link>
                     </div>
                   </motion.div>*/}
-                </motion.div> 
+                </motion.div>
               </div>
               <div className='relative group'>
                 <motion.div
@@ -170,11 +179,16 @@ const MobileNav = () => {
                       delay: 0.4,
                     },
                   }}>
-                  <div
-                    className='border-slate-200 flex items-center justify-between '
-                    onClick={() => toggleDropdown('projects')}>
+                  <Link
+                    href='projects'
+                    className={`border-slate-200 flex items-center justify-between ${
+                      pathname === '/projects'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    onClick={toggleMenu}>
                     Projects
-                  </div>
+                  </Link>
                   {/*<motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{

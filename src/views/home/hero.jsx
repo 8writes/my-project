@@ -54,7 +54,7 @@ const Hero = () => {
         className='hero-content my-auto flex p-2 md:p-5 lg:p-10 xl:p-20 flex-col gap-5 md:gap-10 uppercase'>
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
           }}
@@ -65,7 +65,7 @@ const Hero = () => {
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
             delay: 0.2,
