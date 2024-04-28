@@ -17,7 +17,6 @@ const AboutUs = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           duration: 0.2,
-          delay: 0.1,
         }}
         className=' w-full lg:flex-1'>
         <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
@@ -35,7 +34,6 @@ const AboutUs = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           duration: 0.2,
-          delay: 0.1,
         }}
         className='my-auto w-full lg:flex-1 flex flex-col gap-5'>
         <p className='text-slate-800 text-base pt-3 font-medium'>

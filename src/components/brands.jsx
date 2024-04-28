@@ -42,8 +42,7 @@ const Brands = () => {
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{
-          duration: 0.2,
-          delay: 0.2,
+            duration: 0.2,
         }}
         className='pb-5'>
         <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
@@ -56,8 +55,7 @@ const Brands = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
-            duration: 0.5,
-            delay: 0.2,
+            duration: 0.2,
           }}
           ref={containerRef}
           className='flex gap-10 items-center pb-10 overflow-x-hidden'>
