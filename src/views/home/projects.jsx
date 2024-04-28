@@ -37,6 +37,7 @@ const Projects = () => {
           className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group '>
           <Image
             src={image1}
+            loading='lazy'
             alt=''
             className='filter brightness-50  lg:group-hover:brightness-50  lg:brightness-75 transition-all'
           />
@@ -59,6 +60,7 @@ const Projects = () => {
           className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group '>
           <Image
             src={image2}
+            loading='eager'
             alt=''
             className='filter brightness-50  lg:group-hover:brightness-50  lg:brightness-75 transition-all'
           />
@@ -82,6 +84,7 @@ const Projects = () => {
           <Image
             src={image3}
             alt=''
+            loading='lazy'
             className='filter brightness-50  lg:group-hover:brightness-50  lg:brightness-75 transition-all'
           />
           <div className='absolute top-48 lg:top-60 px-2 md:px-4'>
