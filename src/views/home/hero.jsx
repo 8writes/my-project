@@ -1,5 +1,7 @@
 /** @format */
 'use client'
+
+import React, { useRef } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
@@ -62,27 +64,24 @@ const Hero = () => {
           Sustainable Future.
         </motion.h1>
         <motion.p
-          initial={{ opacity: 0, y: 15 }}
+          initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
             delay: 0.2,
           }}
           className='text-white text-center md:px-10 lg:px-20 xl:px-24 font-semibold text-base tracking-wide md:text-xl'>
-          Leading civil and electrical engineering in Nigeria, delivering
-          quality service.
+          Delivering quality services.
         </motion.p>
       </motion.section>
       <span className='get-started'>
-        <Link href='#about'>
-          <Image
-            src={dropdown}
-            alt='Dropdown Icon'
-            width={50}
-            loading='lazy'
-            className={`animate-bounce pt-5`}
-          />
-        </Link>
+        <Image
+          src={dropdown}
+          alt='Dropdown Icon'
+          width={50}
+          loading='lazy'
+          className={`animate-bounce pt-5`}
+        />
       </span>
     </div>
   )

@@ -21,6 +21,10 @@
 .hero-content h1 {
   font-size: 5.1rem;
 }
+
+.hero p {
+  font-family: 'Courier New', Courier, monospace;
+}
 .services {
   font-family: Neuemontreal, sans-serif;
 }
