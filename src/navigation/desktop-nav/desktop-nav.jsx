@@ -60,7 +60,7 @@ const DesktopNav = () => {
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
                     className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='services/waste-management'>
+                    href='/services/waste-management'>
                     Waste Management
                   </Link>
                   <Link
