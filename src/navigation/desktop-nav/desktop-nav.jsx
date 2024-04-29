@@ -34,7 +34,7 @@ const DesktopNav = () => {
                   <Link
                     className=' border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
                     href='#'>
-                    Water Borehole
+                    BOREHOLE DRILLING
                   </Link>
                   <Link
                     className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'

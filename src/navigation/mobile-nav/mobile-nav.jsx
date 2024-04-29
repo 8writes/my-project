@@ -125,7 +125,7 @@ const MobileNav = () => {
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
                         href='#'>
-                        Water Borehole
+                        BOREHOLE DRILLING
                       </Link>
                       <Link
                         className='  border-transparent p-3 hover:border-slate-200 scale-95'

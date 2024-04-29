@@ -68,12 +68,12 @@ const ServicesHome = () => {
             duration: 0.2,
           }}
           className='services-left-content'>
-          <div className='sticky w-11/12 top-40'>
+          <div className='sticky w-11/12 top-52'>
             <p className='uppercase text-blue-500 font-bold tracking-wide pb-5'>
               ON-PO𝕀NT DYNAMICS SYNERGY
             </p>
 
-            <h1 className='services-left-content-h1 uppercase pb-10 text-blue-500 font-extrabold '>
+            <h1 className='text-5xl md:text-7xl uppercase pb-10 text-blue-500 font-extrabold '>
               Services
             </h1>
             <span className='flex items-center justify-center mx-auto'>

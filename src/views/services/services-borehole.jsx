@@ -13,7 +13,7 @@ import ServicesContent from '@/components/services-content'
 const ServicesBorehole = () => {
   return (
     <div className=''>
-      <ServicesContent title='Borehole MANAGEMENT' image={image5} />
+      <ServicesContent title='BOREHOLE DRILLING' image={image5} />
     </div>
   )
 }
