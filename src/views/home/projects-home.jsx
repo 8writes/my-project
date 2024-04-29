@@ -4,13 +4,12 @@
 
 import Image from 'next/image'
 
+import { motion } from 'framer-motion'
 import image1 from '../../../public/images/dam-constuction.jpg'
 import image2 from '../../../public/images/reconstroction.jpg'
 import image3 from '../../../public/images/renovation.jpg'
-import Link from 'next/link'
-import { motion } from 'framer-motion'
 
-const Projects = () => {
+const ProjectsHome = () => {
   return (
     <div className='projects relative justify-center flex bg-white lg:px-16 px-5'>
       <motion.div
@@ -109,4 +108,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default ProjectsHome

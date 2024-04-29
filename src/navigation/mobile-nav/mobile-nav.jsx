@@ -26,6 +26,10 @@ const MobileNav = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
+ const toggleMenuClose = () => {
+   setIsMenuOpen(false)
+  }
+  
   const toggleDropdown = (dropdownName) => {
     setDropdownStates({
       ...dropdownStates,
@@ -37,7 +41,7 @@ const MobileNav = () => {
     <div className='block lg:hidden z-50 fixed w-full'>
       <section className='mobile-nav flex items-center justify-between shadow bg-white py-1 px-5'>
         <div className='mobile-nav-logo'>
-          <Link href='/' onClick={toggleMenu}>
+          <Link href='/' onClick={toggleMenuClose}>
             <Image src={logo} alt='Company Logo' width={65} loading='eager' />
           </Link>
         </div>
@@ -97,10 +101,10 @@ const MobileNav = () => {
                         ? 'text-blue-500'
                         : 'text-slate-800'
                     }`}
-                    onClick={toggleMenu}>
+                    onClick={() => toggleDropdown('services')}>
                     Services
                   </Link>
-                  {/**   <motion.div
+                  <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{
                       opacity: dropdownStates.services ? 1 : 0,
@@ -112,7 +116,6 @@ const MobileNav = () => {
                     className={`relative ml-2 border-l-2 border-slate-200 bg-white ${
                       dropdownStates.services ? 'block' : 'hidden'
                     }`}>
-                    
                     <div className='flex flex-col w-full text-base text-blue-500 opacity-90 py-3'>
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
@@ -141,7 +144,7 @@ const MobileNav = () => {
                       </Link>
                       <Link
                         className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        href='services/waste-management'>
                         Waste Management
                       </Link>
                       <Link
@@ -165,7 +168,7 @@ const MobileNav = () => {
                         Electrical Engineering/Instrumentation
                       </Link>
                     </div>
-                  </motion.div>*/}
+                  </motion.div>
                 </motion.div>
               </div>
               <div className='relative group'>
@@ -186,7 +189,7 @@ const MobileNav = () => {
                         ? 'text-blue-500'
                         : 'text-slate-800'
                     }`}
-                    onClick={toggleMenu}>
+                    onClick={toggleMenuClose}>
                     Projects
                   </Link>
                   {/*<motion.div

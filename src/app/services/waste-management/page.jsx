@@ -1,12 +1,12 @@
 
 'use client'
 
-import Services from "@/views/services/services";
+import ServicesWaste from '@/views/services/services-waste'
 
 const Page = () => {
     return (
         <div>
-           <Services />
+           <ServicesWaste />
         </div>
     );
 }

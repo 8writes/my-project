@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react'
 
 import hr from '../../../public/images/hr.svg'
 import AboutUs from '../about/about'
-const Services = () => {
+const ServicesHome = () => {
   const controls = useAnimation()
   const [scrollY, setScrollY] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
@@ -126,4 +126,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default ServicesHome
