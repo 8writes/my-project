@@ -26,10 +26,10 @@ const MobileNav = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
- const toggleMenuClose = () => {
-   setIsMenuOpen(false)
+  const toggleMenuClose = () => {
+    setIsMenuOpen(false)
   }
-  
+
   const toggleDropdown = (dropdownName) => {
     setDropdownStates({
       ...dropdownStates,
@@ -95,14 +95,19 @@ const MobileNav = () => {
                     },
                   }}>
                   <Link
-                    href='services'
-                    className={`border-slate-200 flex items-center justify-between  ${
-                      pathname === '/services'
-                        ? 'text-blue-500'
-                        : 'text-slate-800'
-                    }`}
+                    href='#'
+                    className={`border-slate-200 flex items-center justify-between `}
                     onClick={() => toggleDropdown('services')}>
                     Services
+                    <Image
+                      src={dropdown}
+                      alt='Dropdown Icon'
+                      width={30}
+                      loading='lazy'
+                      className={`transform origin-center transition-all ${
+                        dropdownStates.services ? 'rotate-180' : 'rotate-0'
+                      }`}
+                    />
                   </Link>
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
@@ -116,7 +121,7 @@ const MobileNav = () => {
                     className={`relative ml-2 border-l-2 border-slate-200 bg-white ${
                       dropdownStates.services ? 'block' : 'hidden'
                     }`}>
-                    <div className='flex flex-col w-full text-base text-blue-500 opacity-90 py-3'>
+                    <div className='flex flex-col w-full text-base text-slate-700 opacity-90 py-3'>
                       <Link
                         className=' border-transparent p-3 hover:border-slate-200 scale-95'
                         href='#'>
@@ -138,13 +143,24 @@ const MobileNav = () => {
                         Civil/Mechanical Engineering Works
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname ===
+                          '/services/construction-materials-leasing'
+                            ? 'text-blue-500'
+                            : 'text-slate-800'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/construction-materials-leasing'>
                         Construction Materials / Heavy Duty Equipment Leasing
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='services/waste-management'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/services/waste-management'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/waste-management'>
                         Waste Management
                       </Link>
                       <Link
