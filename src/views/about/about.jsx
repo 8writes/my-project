@@ -10,12 +10,11 @@ const AboutUs = () => {
   return (
     <div className='about-us flex flex-wrap justify-center gap-10 px-5 md:px-10 lg:px-28 pt-11 md:pb-10'>
       <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ y: 10 }}
+        whileInView={{ y: 0 }}
         transition={{
           duration: 0.2,
         }}
-        
         className=' w-full lg:flex-1'>
         <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
           About
@@ -28,8 +27,8 @@ const AboutUs = () => {
         <div className=' w-32 h-1 bg-blue-400'></div>
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ y: 10 }}
+        whileInView={{ y: 0 }}
         transition={{
           duration: 0.2,
         }}
@@ -41,11 +40,11 @@ const AboutUs = () => {
           clients with excellence and integrity.
         </p>
         <div className='uppercase bg-blue-500 text-white w-fit text-xs my-1 tracking-wide font-semibold'>
-          <Link href='#' className='group flex items-center py-1 px-3'>
+          <Link href='about-us' className='group flex items-center py-1 px-3'>
             Learn About Us{' '}
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='h-6 w-6 ml-1 group-hover:translate-x-2 transition-all'
+              className='h-6 w-6 ml-1 lg:group-hover:translate-x-2 transition-all'
               fill='none'
               viewBox='0 0 24 24'
               stroke='currentColor'>

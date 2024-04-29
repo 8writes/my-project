@@ -26,7 +26,7 @@ const DesktopNav = () => {
                 className={`border-l-2 border-slate-200 p-9 group-hover:shadow-lg ${
                   pathname === '/services' ? 'text-blue-500' : 'text-slate-800'
                 }`}
-                href='services'>
+                href='#'>
                 Services
               </Link>
               <div className='absolute border-l-2 pb-1 font-semibold border-t-2 border-slate-200 left-0 mt-8 bg-white shadow-xl hidden group-hover:flex'>
@@ -59,7 +59,11 @@ const DesktopNav = () => {
                 </div>
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
+                    className={`border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/waste-management'
+                        ? 'text-blue-500'
+                        : 'text-slate-700'
+                    }`}
                     href='/services/waste-management'>
                     Waste Management
                   </Link>

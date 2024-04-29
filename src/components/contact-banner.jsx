@@ -24,7 +24,7 @@ const ContactBanner = () => {
               alt=''
               width={30}
               height={30}
-              className='group-hover:-rotate-6 lg:-translate-x-1 lg:group-hover:translate-x-1 transition-all'
+              className='lg:group-hover:-rotate-6 lg:-translate-x-1 lg:group-hover:translate-x-1 transition-all'
             />
             <p className='text-xl'>onpointsynergyltd@gmail.com</p>
           </Link>

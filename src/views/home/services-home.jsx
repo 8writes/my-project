@@ -62,8 +62,8 @@ const ServicesHome = () => {
       <AboutUs />
       <div className='services-bg flex flex-wrap justify-center sticky top-96 px-5 gap-10 w-full pt-10 md:pt-16 '>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 10 }}
+          whileInView={{ y: 0 }}
           transition={{
             duration: 0.2,
           }}
@@ -73,7 +73,7 @@ const ServicesHome = () => {
               ON-PO𝕀NT DYNAMICS SYNERGY
             </p>
 
-            <h1 className='services-left-content-h1 pb-10 text-blue-500 font-extrabold '>
+            <h1 className='services-left-content-h1 uppercase pb-10 text-blue-500 font-extrabold '>
               Services
             </h1>
             <span className='flex items-center justify-center mx-auto'>
@@ -97,27 +97,62 @@ const ServicesHome = () => {
         <div>
           <div className='services-right-content'>
             <div className='card flex items-center'>
-              <h2 className=' drop-shadow-2xl'>
-                CIVIL / MECHANICAL ENGINEERING WORKS
-              </h2>
+              <div className='my-auto'>
+                <h2 className=' drop-shadow-2xl'>
+                  CIVIL / MECHANICAL ENGINEERING
+                </h2>
+                <Link href='/services/civil-mechanical-engineering'>
+                  <button className=' my-5 ml-1 text-white text-base border-2 border-white py-1 px-2'>
+                    Read More
+                  </button>
+                </Link>
+              </div>
             </div>
             <div className='card lg:-ml-4 lg:mr-4 flex items-center'>
-              <h2 className=' drop-shadow-2xl'>
-                Construction Materials / heavy duty equipment leasing
-              </h2>
+              <div className='my-auto'>
+                <h2 className=' drop-shadow-2xl'>
+                  Construction Materials / Heavy duty equipment leasing
+                </h2>
+                <Link href='/services/construction-materials-leasing'>
+                  <button className=' my-5 ml-1 text-white text-base border-2 border-white py-1 px-2'>
+                    Read More
+                  </button>
+                </Link>
+              </div>
             </div>
             <div className='card lg:-ml-8 lg:mr-8 flex items-center'>
-              <h2 className=' drop-shadow-2xl'>
-                Road Construction Works / Erosion Control
-              </h2>
+              <div className='my-auto'>
+                <h2 className=' drop-shadow-2xl'>
+                  Road Construction / Erosion Control
+                </h2>
+                <Link href='/services/road-constructions-erosion-control'>
+                  <button className=' my-5 ml-1 text-white text-base border-2 border-white py-1 px-2'>
+                    Read More
+                  </button>
+                </Link>
+              </div>
             </div>
             <div className='card lg:-ml-12 lg:mr-12 flex items-center'>
-              <h2 className=' drop-shadow-2xl'>
-                Electrical Engineering / Installation
-              </h2>
+              <div className='my-auto'>
+                <h2 className=' drop-shadow-2xl'>
+                  Electrical Engineering / Installation
+                </h2>
+                <Link href='/services/electrical-engineering-installations'>
+                  <button className=' my-5 ml-1 text-white text-base border-2 border-white py-1 px-2'>
+                    Read More
+                  </button>
+                </Link>
+              </div>
             </div>
-            <div className='card lg:-ml-16 lg:mr-16 flex items-center'>
-              <h2 className=' drop-shadow-2xl'>Waste Management</h2>
+            <div className='card flex flex-col lg:-ml-16 lg:mr-16'>
+              <div className='my-auto'>
+                <h2 className=' drop-shadow-2xl'>Waste Management</h2>
+                <Link href='/services/waste-management'>
+                  <button className=' my-5 ml-1 text-white text-base border-2 border-white py-1 px-2'>
+                    Read More
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

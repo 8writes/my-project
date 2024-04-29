@@ -10,12 +10,12 @@ import image4 from '../../../public/images/electrical.jpg'
 import image5 from '../../../public/images/cleaning-shore.jpg'
 import ServicesContent from '@/components/services-content'
 
-const ServicesCivilMechanicalWorks = () => {
+const ServicesRoadConstruction = () => {
   return (
     <div className=''>
-      <ServicesContent title='CivilMechanicalWorks MANAGEMENT' image={image5} />
+      <ServicesContent title='RoadConstruction MANAGEMENT' image={image5} />
     </div>
   )
 }
 
-export default ServicesCivilMechanicalWorks
+export default ServicesRoadConstruction
