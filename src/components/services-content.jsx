@@ -15,7 +15,7 @@ const ServicesContent = ({ title, image }) => {
             Services
           </h1>
           <div className=' w-32 h-1 bg-blue-400 '></div>
-          <h1 className='text-2xl uppercase lg:text-4xl pt-10 text-slate-800 font-bold'>
+          <h1 className='text-2xl uppercase lg:text-4xl pt-10 text-blue-500 font-bold'>
             {title}.
           </h1>
           {/* You can add additional props for other data to display */}
