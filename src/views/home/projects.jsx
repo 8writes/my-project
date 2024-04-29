@@ -41,12 +41,15 @@ const Projects = () => {
             alt=''
             className='filter brightness-50  lg:group-hover:brightness-50  lg:brightness-75 transition-all'
           />
-          <div className='absolute top-48 lg:top-60 px-2 md:px-4'>
-            <h1 className='lg:group-hover:-translate-y-10 pb-10 lg:pb-0 delay-100 ease-in-out lg:group-hover:text-white transition-all lg:translate-y-10 lg:text-transparent text-white font-bold text-xl md:text-2xl uppercase'>
+          <div className='absolute top-36 lg:top-60 px-2 md:px-4'>
+            <h1 className='lg:group-hover:-translate-y-10 lg:translate-y-10 pb-10 lg:pb-0 delay-100 ease-in-out lg:group-hover:text-white transition-all  lg:text-transparent text-white font-bold text-xl md:text-2xl uppercase'>
               retaining work project for Niger Delta Power Holding Company at
               omotosho Power plant Ondo State.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
+            <button className=' my-5 text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
+              View Images
+            </button>
           </div>
         </motion.div>
         <motion.div
@@ -64,12 +67,15 @@ const Projects = () => {
             alt=''
             className='filter brightness-50  lg:group-hover:brightness-50  lg:brightness-75 transition-all'
           />
-          <div className='absolute top-48 lg:top-60 px-2 md:px-4'>
+          <div className='absolute top-36 lg:top-60 px-2 md:px-4'>
             <h1 className='lg:group-hover:-translate-y-10 delay-100  pb-10 lg:pb-0 ease-in-out lg:group-hover:text-white transition-all lg:translate-y-10 lg:text-transparent text-white font-bold text-xl md:text-2xl uppercase'>
               steam turbine roofing for Niger Delta Power Holding Company at
               olorunshogo Power plant Ogun State.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
+            <button className=' my-5 text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
+              View Images
+            </button>
           </div>
         </motion.div>
         <motion.div
@@ -87,12 +93,15 @@ const Projects = () => {
             loading='lazy'
             className='filter brightness-50  lg:group-hover:brightness-50  lg:brightness-75 transition-all'
           />
-          <div className='absolute top-48 lg:top-60 px-2 md:px-4'>
+          <div className='absolute top-36 lg:top-60 px-2 md:px-4'>
             <h1 className='lg:group-hover:-translate-y-10 delay-100  pb-10 lg:pb-0 ease-in-out lg:group-hover:text-white transition-all lg:translate-y-10 lg:text-transparent text-white font-bold text-xl md:text-2xl uppercase'>
               renovation project for Niger Delta Power Holding Company at
               Gbarain Bayelsa state.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
+            <button className=' my-5 text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
+              View Images
+            </button>
           </div>
         </motion.div>
       </div>
