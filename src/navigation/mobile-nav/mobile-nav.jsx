@@ -52,14 +52,14 @@ const MobileNav = () => {
                 <Image
                   src={closeMenu}
                   alt='Close Icon'
-                  width={30}
+                  width={40}
                   loading='eager'
                 />
               ) : (
                 <Image
                   src={openMenu}
                   alt='Open Icon'
-                  width={30}
+                  width={40}
                   loading='eager'
                 />
               )}
@@ -216,8 +216,7 @@ const MobileNav = () => {
                       </Link>
                       <Link
                         className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
-                          pathname ===
-                          '/services/electrical-engineering-instrumentation'
+                          pathname === '/services/electrical-engineering-instrumentation'
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}

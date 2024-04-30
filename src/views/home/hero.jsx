@@ -51,7 +51,7 @@ const Hero = () => {
       </svg>
       <motion.section
         animate={controls}
-        className='hero-content my-auto flex p-2 md:p-5 lg:p-10 xl:p-20 flex-col gap-5 md:gap-10 uppercase'>
+        className='hero-content my-auto flex md:p-5 lg:p-10 xl:p-20 flex-col gap-5 md:gap-10 uppercase'>
         <motion.h1
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -60,10 +60,10 @@ const Hero = () => {
           }}
           className='text-white text-center font-bold tracking-wide'>
           <span>Innovation</span>{' '}
-          <span className='text-3xl md:text-6xl lg:text-7xl'>For a</span>{' '}
+          <span className='text-3xl md:text-6xl lg:text-7xl'>𝐅𝐎𝐑 𝐀</span>{' '}
           Sustainable Future.
         </motion.h1>
-        <motion.p
+        {/**<motion.p
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -72,7 +72,7 @@ const Hero = () => {
           }}
           className='text-white text-center md:px-10 lg:px-20 xl:px-24 font-semibold text-base tracking-wide md:text-xl'>
           Delivering quality services.
-        </motion.p>
+        </motion.p> */}
       </motion.section>
       <span className='get-started'>
         <Image
