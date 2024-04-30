@@ -46,7 +46,7 @@ const ProjectsHome = () => {
               omotosho Power plant Ondo State.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
-            <button className='text-white uppercase my-5 w-full text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
+            <button className='text-white  mt-16 uppercase my-5 w-full text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
               View Project
             </button>
           </div>
@@ -72,7 +72,7 @@ const ProjectsHome = () => {
               olorunshogo Power plant Ogun State.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
-            <button className='text-white uppercase w-full my-5 text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
+            <button className='text-white  mt-16 uppercase w-full my-5 text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
               View Project
             </button>
           </div>
@@ -98,7 +98,7 @@ const ProjectsHome = () => {
               Gbarain Bayelsa state.
             </h1>
             <div className=' w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
-            <button className='text-white uppercase w-full my-5 text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1  transition-all'>
+            <button className='text-white mt-16 uppercase w-full my-5 text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1 transition-all'>
               View Project
             </button>
           </div>
