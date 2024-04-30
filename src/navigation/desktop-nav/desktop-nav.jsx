@@ -181,13 +181,21 @@ const DesktopNav = () => {
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className=' border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/about-us'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/about-us'>
                     About Us
                   </Link>
                   <Link
-                    className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/board-of-directors'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/board-of-directors'>
                     Board Of Directors
                   </Link>
                   <Link

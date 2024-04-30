@@ -1,7 +1,6 @@
 /** @format */
 
 import Brands from '@/components/brands'
-import ContactBanner from '@/components/contact-banner'
 import ProjectsBtn from '@/components/projects-btn'
 import ServicesBtn from '@/components/services-btn'
 import Hero from '@/views/home/hero'
@@ -17,7 +16,6 @@ export default function Home() {
       <ProjectsHome />
       <ProjectsBtn />
       <Brands />
-      <ContactBanner />
     </main>
   )
 }

@@ -7,7 +7,7 @@ import { motion, useAnimation } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 
 import hr from '../../../public/images/hr.svg'
-import AboutUs from '../about/about'
+import AboutUs from './about-home'
 const ServicesHome = () => {
   const controls = useAnimation()
   const [scrollY, setScrollY] = useState(0)

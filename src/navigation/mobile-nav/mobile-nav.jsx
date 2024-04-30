@@ -216,7 +216,8 @@ const MobileNav = () => {
                       </Link>
                       <Link
                         className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
-                          pathname === '/services/electrical-engineering-instruments'
+                          pathname ===
+                          '/services/electrical-engineering-instruments'
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}
@@ -370,13 +371,21 @@ const MobileNav = () => {
                     {/* Dropdown content */}
                     <div className='flex flex-col w-80 text-base text-blue-500 opacity-90 py-3'>
                       <Link
-                        className=' border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/about-us'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        href='/about-us'>
                         About Us
                       </Link>
                       <Link
-                        className=' border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/board-of-directors'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        href='/board-of-directors'>
                         Board Of Directors
                       </Link>
                       <Link
