@@ -91,7 +91,7 @@ const DesktopNav = () => {
                         ? 'text-blue-500'
                         : 'text-slate-800'
                     }`}
-                    href='/services/general-contract'>
+                    href='/services/general-contracts'>
                     General Contracts
                   </Link>
                   <Link

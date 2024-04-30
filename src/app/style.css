@@ -188,8 +188,8 @@
     background-attachment: scroll;
     background-image: linear-gradient(
         90deg,
-        rgba(0, 0, 0, 0.861),
-        rgba(0, 0, 0, 0.893)
+        rgba(0, 0, 0, 0.795),
+        rgba(0, 0, 0, 0.814)
       ),
       url('../../public/bg/photo-collage.png.png');
   }
