@@ -13,7 +13,7 @@ import ServicesContent from '@/components/services-content'
 const ServicesBuildingConst = () => {
   return (
     <div className=''>
-      <ServicesContent title='BuildingConst MANAGEMENT' image={image5} />
+      <ServicesContent title='Building Construction' image={image5} />
     </div>
   )
 }

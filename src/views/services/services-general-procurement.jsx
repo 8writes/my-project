@@ -13,7 +13,7 @@ import ServicesContent from '@/components/services-content'
 const ServicesGeneralProcurement = () => {
   return (
     <div className=''>
-      <ServicesContent title='GeneralProcurement MANAGEMENT' image={image5} />
+      <ServicesContent title='General Procurement' image={image5} />
     </div>
   )
 }

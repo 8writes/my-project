@@ -4,7 +4,7 @@
 
 const Projects = () => {
   return (
-    <div className=' min-h-screen '>
+    <div className=' min-h-screen bg-white'>
       <section></section>
     </div>
   )

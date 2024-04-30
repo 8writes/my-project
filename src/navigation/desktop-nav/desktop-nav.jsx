@@ -23,37 +23,55 @@ const DesktopNav = () => {
           <div className='flex font-normal text-slate-800 uppercase text-sm'>
             <div className='relative group'>
               <Link
-                className={`border-l-2 border-slate-200 p-9 group-hover:shadow-lg ${
-                  pathname === '/services' ? 'text-blue-500' : 'text-slate-800'
-                }`}
+                className={`border-l-2 border-slate-200 p-9 group-hover:shadow-lg`}
                 href='#'>
                 Services
               </Link>
               <div className='absolute border-l-2 pb-1 font-semibold border-t-2 border-slate-200 left-0 mt-8 bg-white shadow-xl hidden group-hover:flex'>
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className=' border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
-                    BOREHOLE DRILLING
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/borehole-drilling'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/borehole-drilling'>
+                    Borehole Drilling
                   </Link>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/equipment-supplies'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/equipment-supplies'>
                     Equipment Supplies
                   </Link>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/building-construction'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/building-construction'>
                     Building Construction
                   </Link>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
-                    Civil/Mechanical Engineering Works
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/civil-mechanical-engineering'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/civil-mechanical-engineering'>
+                    Civil / Mechanical Engineering Works
                   </Link>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/construction-materials-leasing'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/construction-materials-leasing'>
                     Construction Materials / Heavy Duty Equipment Leasing
                   </Link>
                 </div>
@@ -68,23 +86,40 @@ const DesktopNav = () => {
                     Waste Management
                   </Link>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/general-contract'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/general-contract'>
                     General Contracts
                   </Link>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/general-procurement'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/general-procurement'>
                     General Procurement
                   </Link>
                   <Link
-                    className='   border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
-                    Road Construction Works/Erosion Control
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname === '/services/road-construction-erosion-control'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/road-construction-erosion-control'>
+                    Road Construction Works / Erosion Control
                   </Link>
                   <Link
-                    className='  border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
-                    href='#'>
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                      pathname ===
+                      '/services/electrical-engineering-instrumentation'
+                        ? 'text-blue-500'
+                        : 'text-slate-800'
+                    }`}
+                    href='/services/electrical-engineering-instrumentation'>
                     Electrical Engineering/Instrumentation
                   </Link>
                 </div>
@@ -95,7 +130,7 @@ const DesktopNav = () => {
                 className={`border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-lg ${
                   pathname === '/projects' ? 'text-blue-500' : 'text-slate-800'
                 }`}
-                href='projects'>
+                href='/projects'>
                 Projects
               </Link>
               {/*  <div className='absolute border-l-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-2xl hidden group-hover:flex'>

@@ -123,24 +123,44 @@ const MobileNav = () => {
                     }`}>
                     <div className='flex flex-col w-full text-base text-slate-700 opacity-90 py-3'>
                       <Link
-                        className=' border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/services/borehole-drilling'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/borehole-drilling'>
                         BOREHOLE DRILLING
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/services/equipment-supplies'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/equipment-supplies'>
                         Equipment Supplies
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/services/building-construction'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/building-construction'>
                         Building Construction
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
-                        Civil/Mechanical Engineering Works
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/services/civil-mechanical-engineering'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/civil-mechanical-engineering'>
+                        Civil / Mechanical Engineering Works
                       </Link>
                       <Link
                         className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
@@ -164,23 +184,45 @@ const MobileNav = () => {
                         Waste Management
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/services/general-contracts'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/general-contracts'>
                         General Contracts
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname === '/services/general-procurement'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/general-procurement'>
                         General Procurement
                       </Link>
                       <Link
-                        className='   border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname ===
+                          '/services/road-construction-erosion-control'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/road-construction-erosion-control'>
                         Road Construction Works/Erosion Control
                       </Link>
                       <Link
-                        className='  border-transparent p-3 hover:border-slate-200 scale-95'
-                        href='#'>
+                        className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
+                          pathname ===
+                          '/services/electrical-engineering-instrumentation'
+                            ? 'text-blue-500'
+                            : 'text-slate-700'
+                        }`}
+                        onClick={toggleMenuClose}
+                        href='/services/electrical-engineering-instrumentation'>
                         Electrical Engineering/Instrumentation
                       </Link>
                     </div>
