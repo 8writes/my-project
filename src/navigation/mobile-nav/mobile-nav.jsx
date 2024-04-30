@@ -216,13 +216,13 @@ const MobileNav = () => {
                       </Link>
                       <Link
                         className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
-                          pathname === '/services/electrical-engineering-instrumentation'
+                          pathname === '/services/electrical-engineering-instruments'
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}
                         onClick={toggleMenuClose}
-                        href='/services/electrical-engineering-instrumentation'>
-                        Electrical Engineering/Instrumentation
+                        href='/services/electrical-engineering-instruments'>
+                        Electrical Engineering/instruments
                       </Link>
                     </div>
                   </motion.div>

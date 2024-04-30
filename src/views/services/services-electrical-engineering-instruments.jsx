@@ -3,18 +3,18 @@
 'use client'
 
 import Image from 'next/image'
-import image5 from '../../../public/images/road.jpg'
+import image5 from '../../../public/images/electrical.jpg'
 import ServicesContent from '@/components/services-content'
 
-const ServicesRoadConstruction = () => {
+const ServicesElectricalEngineering = () => {
   return (
     <div className=''>
       <ServicesContent
-        title='ROAD CONSTRUCTION / EROSION CONTROL'
+        title='ELECTRICAL ENGINEERING / instruments'
         image={image5}
       />
     </div>
   )
 }
 
-export default ServicesRoadConstruction
+export default ServicesElectricalEngineering

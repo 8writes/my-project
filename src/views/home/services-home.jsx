@@ -135,9 +135,9 @@ const ServicesHome = () => {
             <div className='card lg:-ml-12 lg:mr-12 flex items-center'>
               <div className='my-auto'>
                 <h2 className=' drop-shadow-2xl'>
-                  Electrical Engineering / Installation
+                  Electrical Engineering / instrumentation
                 </h2>
-                <Link href='/services/electrical-engineering-installations'>
+                <Link href='/services/electrical-engineering-instrumentation'>
                   <button className=' my-5 ml-1 text-white text-base border-2 border-white py-1 px-2'>
                     Read More
                   </button>

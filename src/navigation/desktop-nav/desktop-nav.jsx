@@ -115,12 +115,12 @@ const DesktopNav = () => {
                   <Link
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
                       pathname ===
-                      '/services/electrical-engineering-instrumentation'
+                      '/services/electrical-engineering-instruments'
                         ? 'text-blue-500'
                         : 'text-slate-800'
                     }`}
-                    href='/services/electrical-engineering-instrumentation'>
-                    Electrical Engineering/Instrumentation
+                    href='/services/electrical-engineering-instruments'>
+                    Electrical Engineering/instruments
                   </Link>
                 </div>
               </div>

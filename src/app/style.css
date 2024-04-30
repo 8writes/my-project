@@ -87,7 +87,7 @@
       rgba(0, 0, 0, 0.647),
       rgba(0, 0, 0, 0.661)
     ),
-    url('/images/building.jpg');
+    url('../../public//images/civil-building.jpg');
 }
 
 .card:nth-child(2) {
