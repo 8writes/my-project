@@ -29,7 +29,7 @@ const ServicesContent = ({ title, image, children }) => {
             />
             <div className='mt-16 h-1 mx-10 bg-blue-400 '></div>
           </div>
-          <div className='py-20'>{children}</div>
+          <div className='pt-20 pb-32 lg:py-20'>{children}</div>
         </div>
         <div
           className='border-l-8 hidden border-blue-500 lg:block lg:w-2/4 lg:sticky lg:top-36'

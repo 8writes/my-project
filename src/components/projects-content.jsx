@@ -38,14 +38,11 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText }) => {
             {projectDescription}
           </h1>
           <div className='w-32 h-1 bg-blue-400 lg:bg-transparent transition-all'></div>
-          <button
-            onClick={openDialog}
-            className='text-white mt-16 uppercase my-5 w-full text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1 transition-all'>
+          <button className='text-white mt-16 uppercase my-5 w-full text-base lg:opacity-0 lg:group-hover:-translate-y-2 lg:translate-y-10 lg:group-hover:opacity-100 border-2 border-white p-1 transition-all'>
             {buttonText}
           </button>
         </div>
       </motion.div>
-       
     </>
   )
 }
