@@ -23,11 +23,11 @@ const DesktopNav = () => {
           <div className='flex font-normal text-slate-800 uppercase text-sm'>
             <div className='relative group'>
               <Link
-                className={`border-l-2 border-slate-200 p-9 group-hover:shadow-lg`}
+                className={`border-l-2 border-slate-200 p-9 group-hover:shadow-md`}
                 href='#'>
                 Services
               </Link>
-              <div className='absolute border-l-2 pb-1 font-semibold border-t-2 border-slate-200 left-0 mt-8 bg-white shadow-xl hidden group-hover:flex'>
+              <div className='absolute border-l-2 pb-1 font-semibold border-t-2 border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
@@ -151,11 +151,11 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-r-2 border-slate-200 p-9 group-hover:shadow-2xl '
+                className='border-r-2 border-slate-200 p-9 group-hover:shadow-md '
                 href='#'>
                 Technical Partners
               </Link>
-              <div className='absolute border-r-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-xl hidden group-hover:flex'>
+              <div className='absolute border-r-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
@@ -173,11 +173,11 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-r-2 border-slate-200 p-9 group-hover:shadow-2xl '
+                className='border-r-2 border-slate-200 p-9 group-hover:shadow-md'
                 href='#'>
                 Company Overview
               </Link>
-              <div className='absolute border-r-2 border-b-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-xl hidden group-hover:flex'>
+              <div className='absolute border-r-2 border-b-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link

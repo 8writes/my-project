@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div className='bg-white p-5 lg:p-20'>
       <div className='flex flex-wrap py-20 gap-10 relative '>
-        <div className=' lg:flex-1 w-full lg:w-fit'>
+        <div className=' lg:flex-1 lg:ml-5 w-full lg:w-fit'>
           <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
             Who we are
           </p>
@@ -50,14 +50,9 @@ const AboutUs = () => {
             </span>
           </p>
         </div>
-        <div className='flex-1 '>
-          <div className='lg:sticky lg:top-36'>
-            <Image src={image} alt='' style={{ height: '30rem' }} />
-          </div>
-        </div>
       </div>
       <div className='flex flex-wrap gap-10 lg:gap-14 pb-32 lg:pb-10'>
-        <div className='w-full lg:w-fit lg:flex-1'>
+        <div className='w-full lg:ml-5 lg:w-fit lg:flex-1'>
           <h1 className='text-2xl pt-10 pb-5 font-semibold uppercase text-blue-500'>
             Company profile
           </h1>
@@ -74,7 +69,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className='w-full lg:flex-1 pb-20'>
-          <h1 className='text-2xl pt-10 pb-5 font-semibold uppercase text-blue-500'>
+          <h1 className='text-2xl pt-11 pb-5 font-semibold uppercase text-blue-500'>
             Our Vision
           </h1>
           <p className='text-slate-800 text-sm leading-loose tracking-wider font-medium'>
