@@ -13,7 +13,7 @@ const ServicesElectricalEngineering = () => {
       <ServicesContent
         title='ELECTRICAL ENGINEERING / instruments'
         image={image5}>
-        <p className='text-slate-800 pb-2 leading-relaxed tracking-wide'>
+        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           <span className='text-blue-500 font-semibold'>
             ON-POINT DYNAMICS SYNERGY LIMITED
           </span>{' '}
@@ -22,7 +22,7 @@ const ServicesElectricalEngineering = () => {
           electrification in Nigeria.
         </p>
         <div className='py-2'>
-          <p className='text-blue-500 font-semibold pb-2 leading-relaxed tracking-wide'>
+          <p className='text-blue-500 font-semibold pb-2 leading-9 tracking-wide'>
             Construction, installation and maintenance of electrical /
             instrumentation equipment.
           </p>
@@ -31,7 +31,7 @@ const ServicesElectricalEngineering = () => {
             Electrical/Instrument
           </p>
         </div>
-        <p className='text-slate-800 pt-5 pb-2 leading-relaxed tracking-wide'>
+        <p className='text-slate-800 pt-5 pb-2 leading-9 tracking-wide'>
           Following Nigeria’s push for consistent Energy supply and the passing
           of the Power Reform Act in 2005 ON-POINT DYNAMICS SYNERGY LIMITED
           <br />
@@ -52,7 +52,7 @@ const ServicesElectricalEngineering = () => {
           Eastern Nigeria, and the supply of electric power to the town is
           grossly inadequate to serve the needs of consumers.{' '}
         </p>
-        <p className='text-slate-800 pb-2 leading-relaxed tracking-wide'>
+        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           <span className='text-blue-500 block pt-2 font-semibold'>
             ON-POINT DYNAMICS SYNERGY LIMITED
           </span>{' '}
@@ -60,7 +60,7 @@ const ServicesElectricalEngineering = () => {
           generation and distribution projects, collectively referred to as the
           Integrated Power Project(IPP).
         </p>
-        <p className='text-slate-800 pb-2 leading-relaxed tracking-wide'>
+        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           <span className='text-blue-500 block pt-2 font-semibold'>
             ON-POINT DYNAMICS SYNERGY LIMITED
           </span>{' '}

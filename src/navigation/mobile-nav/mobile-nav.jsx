@@ -185,13 +185,13 @@ const MobileNav = () => {
                       </Link>
                       <Link
                         className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
-                          pathname === '/services/general-contracts'
+                          pathname === '/services/oil&gas'
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}
                         onClick={toggleMenuClose}
-                        href='/services/general-contracts'>
-                        General Contracts
+                        href='/services/oil&gas'>
+                        Oil And Gas
                       </Link>
                       <Link
                         className={`border-transparent p-3 hover:border-slate-200 scale-95 ${
