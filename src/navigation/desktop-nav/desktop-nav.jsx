@@ -127,7 +127,7 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className={`border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-lg ${
+                className={`border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-md ${
                   pathname === '/projects' ? 'text-blue-500' : 'text-slate-800'
                 }`}
                 href='/projects'>
@@ -209,7 +209,7 @@ const DesktopNav = () => {
           </div>
         </div>
         <div className='desktop-nav-end  mx-auto'>
-          <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-400 px-10 py-4 text-white uppercase hover:bg-white hover:shadow-md hover:text-blue-500 hover:border-blue-400  transition-all'>
+          <button className='font-medium border-2 border-transparent bg-blue-400 px-10 py-4 text-white uppercase hover:bg-white hover:shadow-md hover:text-blue-500 hover:border-blue-400  transition-all'>
             Contact
           </button>
         </div>
