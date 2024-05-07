@@ -50,7 +50,7 @@ const ServicesHome = () => {
   return (
     <div className='services relative pb-10 bg-white'>
       <svg
-        className='vector w-full absolute -bottom-16 lg:-bottom-52 md:-bottom-28 transform rotate-180'
+        className='vector w-full absolute -bottom-16 lg:-bottom-56 md:-bottom-28 transform rotate-180'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 320'>
         <path

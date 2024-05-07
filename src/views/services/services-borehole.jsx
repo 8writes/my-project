@@ -31,14 +31,14 @@ const ServicesBorehole = () => {
           <li>Servicing and maintenance of Pumping.</li>
         </ol>
         <p className='text-slate-800 pt-5 pb-2 leading-relaxed tracking-wide'>
-          <span className='text-blue-500 font-semibold'>
+          <span className='text-blue-500 block pt-2 font-semibold'>
             ON-POINT DYNAMICS SYNERGY LIMITED
           </span>{' '}
           since inception has participated in the provision of mechanized bored
           wells in a number of states in some States and parastatals.
         </p>
         <p className='text-slate-800 py-2 leading-relaxed tracking-wide'>
-          <span className='text-blue-500 font-semibold'>
+          <span className='text-blue-500 block pt-2 font-semibold'>
             ON-POINT DYNAMICS SYNERGY LIMITED
           </span>{' '}
           is a specialist in drilling or boreholes constructions, treatment and

@@ -14,6 +14,7 @@ const ServicesWaste = () => {
   return (
     <div className=''>
       <ServicesContent title='WASTE MANAGEMENT' image={image5} />
+      
     </div>
   )
 }

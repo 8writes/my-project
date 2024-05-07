@@ -13,6 +13,12 @@ const ServicesRoadConstruction = () => {
         title='ROAD CONSTRUCTION / EROSION CONTROL'
         image={image5}
       />
+      <p>
+        From the development of robust road networks to the implementation of
+        erosion control measures, we deploy advanced methodologies and
+        sustainable practices to deliver infrastructure solutions that stand the
+        test of time.
+      </p>
     </div>
   )
 }
