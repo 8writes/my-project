@@ -3,7 +3,7 @@
 'use client'
 
 import Image from 'next/image'
-import image5 from '../../../public/images/img-3.jpg'
+import image5 from '../../../public/images/Oil-Gas-Extraction.jpg'
 import ServicesContent from '@/components/services-content'
 
 const OilAndGas = () => {

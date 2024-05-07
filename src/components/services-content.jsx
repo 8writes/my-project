@@ -33,12 +33,12 @@ const ServicesContent = ({ title, image, children }) => {
         </div>
         <div
           className='border-l-8 hidden flex-1 border-blue-500 lg:block lg:w-2/4 lg:sticky lg:top-36'
-          style={{ height: '24rem' }}>
+          style={{ height: '29rem' }}>
           <Image
             src={image}
             alt={title}
             className='w-full'
-            style={{ height: '24rem' }}
+            style={{ height: '29rem' }}
           />
           <div className='mt-10 h-1 mx-10 bg-blue-400 '></div>
         </div>

@@ -82,14 +82,14 @@ const Footer = () => {
                   {' '}
                   <Link
                     className=' hover:text-orange-500 hover:underline'
-                    href='#'>
+                    href='https://en.efinorseacleaner.com/'>
                     Efinor Sea Cleaner France
                   </Link>
                 </li>
                 <li>
                   <Link
                     className=' hover:text-green-500 hover:underline'
-                    href='#'>
+                    href='https://www.hoppecke.com/en/'>
                     Hoppecke Batterien Germany
                   </Link>
                 </li>
