@@ -4,6 +4,7 @@
 
 import Image from 'next/image'
 import image5 from '../../../public/images/cleaning-shore.jpg'
+import arrow from '../../../public/images/arrow-square-out-bold-svgrepo-com.svg'
 import ServicesContent from '@/components/services-content'
 import Link from 'next/link'
 
@@ -57,8 +58,10 @@ const ServicesWaste = () => {
           Technical Partner
         </h3>
         <p className='text-orange-500 pb-2 leading-9 font-semibold uppercase tracking-wide'>
-          <Link href='https://en.efinorseacleaner.com/'>
+          <Link href='https://en.efinorseacleaner.com/' target='_blank' className='flex items-center gap-2'>
             Efinor Sea Cleaner France
+            <Image src={arrow} alt='' className='w-4' />
+              
           </Link>
         </p>
       </ServicesContent>
