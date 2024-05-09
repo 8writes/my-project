@@ -5,18 +5,14 @@
 import Image from 'next/image'
 import image from '../../../public/images/borehole.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesBorehole = () => {
   return (
-    <div className=''>
-      <ServicesContent title='BOREHOLE DRILLING' image={image}>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide leading-9'>
-          At On-Point Dynamics Synergy Limited, we recognize that access to
-          clean water is not just a luxury but a fundamental necessity for life
-          and development. With our unwavering commitment to quality and
-          sustainability, we offer a comprehensive range of water borehole
-          services to cater to various needs:
-        </p>
+    <div className=' pt-16 lg:pt-20'>
+      <PagesHeader title='BOREHOLE DRILLING' />
+      <ServicesContent image={image}>
+       
         <h1 className='text-blue-500 py-2 font-semibold uppercase'>
           Water Borehole Services:
         </h1>

@@ -47,6 +47,18 @@
   font-family: 'Jost', sans-serif;
 }
 
+.projects-header {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.861),
+      rgba(0, 0, 0, 0.68)
+    ),
+    url('../../public/bg/hero-bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .card {
   top: 15vh;
   position: -webkit-sticky; /* Safari */
@@ -157,7 +169,7 @@
 }
 
 .projects {
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   background-image: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.525),
@@ -174,7 +186,8 @@
       90deg,
       rgba(255, 255, 255, 0.774),
       rgba(234, 234, 234, 0.577)
-    ),url('../../public/bg/hero-bg1.png');
+    ),
+    url('../../public/bg/hero-bg1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
