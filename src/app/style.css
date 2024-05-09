@@ -54,6 +54,7 @@
 .services-left-content-h1 {
   font-size: 4.9rem;
   line-height: 1;
+  letter-spacing: 0.025em;
 }
 
 .wrapper p {
@@ -252,8 +253,9 @@
     font-size: 0.9rem;
   }
   .card h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1;
+    letter-spacing: 0.025em;
   }
   .get-started {
     padding-top: 5vh;

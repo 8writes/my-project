@@ -51,7 +51,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className='hover:text-blue-500 hover:underline'
-                    href='#'>
+                    href='about-us'>
                     About Us
                   </Link>{' '}
                 </li>
@@ -59,7 +59,7 @@ const Footer = () => {
                   {' '}
                   <Link
                     className='hover:text-blue-500 hover:underline'
-                    href='#'>
+                    href='board-of-directors'>
                     {' '}
                     Board Of Directors
                   </Link>
@@ -102,7 +102,7 @@ const Footer = () => {
                   {' '}
                   <Link
                     className='hover:text-blue-500 hover:underline'
-                    href='#'>
+                    href='contact'>
                     Contact
                   </Link>
                 </li>

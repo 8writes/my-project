@@ -21,7 +21,7 @@ const BoardOfDirectors = () => {
             title='MANAGING DIRECTOR / CEO'
           />
         </div>
-        <div className='flex flex-wrap gap-24 pb-24 justify-center'>
+        <div className='flex flex-wrap gap-24 pb-24 lg:pb-0 justify-center'>
           <BoardCard
             imageSrc={edbd}
             name='DR. MRS ROSEMARY AKUDO LAWSON '
