@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div className='min-h-screen bg-white pt-16 lg:pt-20'>
       <PagesHeader title='Projects' />
-      <div className='flex px-5 lg:px-24 flex-wrap py-20 lg:py-32 w-full'>
+      <div className='flex px-5 lg:px-24 flex-wrap py-20 lg:pt-20 lg:pb-32 w-full'>
         <ProjectCard
           imageSrc={image1}
           projectDescription='Retaining work project for Niger Delta Power Holding Company at Omotosho Power plant, Ondo State.'

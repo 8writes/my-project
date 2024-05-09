@@ -11,17 +11,17 @@ import BoardCard from '@/components/board-card'
 
 const BoardOfDirectors = () => {
   return (
-    <div className='bg-white py-16 lg:pt-20'>
+    <div className='board py-16 lg:pt-20'>
       <PagesHeader title='Board Of Directors' />
       <div className='pb-40'>
-        <div className='p-5 flex justify-center  lg:px-20 pb-24 '>
+        <div className='p-5 flex justify-center lg:px-20 pb-24 '>
           <BoardCard
             imageSrc={ceo}
             name='MR IBEGBUNEM ANIEMEKE LAWSON'
-            title='Chief Executive Officer'
+            title='MANAGING DIRECTOR / CEO'
           />
         </div>
-        <div className='flex flex-wrap gap-14 justify-center'>
+        <div className='flex flex-wrap gap-24 pb-24 justify-center'>
           <BoardCard
             imageSrc={edbd}
             name='DR. MRS ROSEMARY AKUDO LAWSON '
@@ -29,8 +29,8 @@ const BoardOfDirectors = () => {
           />
           <BoardCard
             imageSrc={chairman}
-            name='Alh Khalifa A Jikantoro.  Galadiman Borgu kingdom.'
-            title='Chairman'
+            name='Alh Khalifa A Jikantoro. '
+            title=' Galadiman Borgu kingdom.  Niger state.  Nigeria.'
           />
         </div>
       </div>
