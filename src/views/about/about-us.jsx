@@ -54,43 +54,6 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-wrap gap-10 lg:gap-14 pb-32 lg:pb-10'>
-          <div className='w-full lg:ml-5 lg:w-fit lg:flex-1'>
-            <h1 className='text-2xl pt-10 pb-5 font-semibold uppercase text-blue-500'>
-              Company profile
-            </h1>
-            <p className='text-slate-800 py-4 text-sm leading-relaxed tracking-wider font-medium'>
-              Our company began in 2015 with the construction of electrical
-              distribution network within Nigeria mostly for NIGER DELTA POWER
-              HOLDING COMPANY and RURAL ELECTRIFICATION AGENCY in Delta,
-              Anambra, Abia, and Kogi state Nigeria. Today, ON-POINT DYNAMICS
-              SYNERGY LIMITED is one of the most trusted construction companies
-              in Nigeria. Under the current leadership of the present
-              Management, hardworking principles continue to make ON-POINT an
-              award-winning general contractor specializing in multi-family,
-              commercial, institutional, municipal, and historic renovation
-              construction.
-            </p>
-          </div>
-          <div className='w-full lg:flex-1 pb-20'>
-            <h1 className='text-2xl pt-11 pb-5 font-semibold uppercase text-blue-500'>
-              Our Vision
-            </h1>
-            <p className='text-slate-800 text-sm leading-loose tracking-wider font-medium'>
-              To be the top civil and electrical engineering company in Nigeria,
-              delivering superior quality service, geared towards customer
-              satisfaction.
-            </p>
-            <h1 className='text-2xl pt-10 pb-5 font-semibold uppercase text-blue-500'>
-              Our Mission
-            </h1>
-            <p className='text-slate-800 text-sm leading-loose tracking-wider font-medium'>
-              To ensure that customers' construction needs and demands are met
-              through the most accessible and affordable way that creates,
-              captures, and sustains value of all stakeholders.
-            </p>
-          </div>
-        </div>{' '}
       </div>
     </div>
   )

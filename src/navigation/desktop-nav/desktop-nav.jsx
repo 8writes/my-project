@@ -13,7 +13,7 @@ const DesktopNav = () => {
 
   return (
     <div className='hidden lg:block fixed w-full z-50'>
-      <section className='desktop-nav flex items-center justify-between border-b-2 border-slate-200 bg-white p-1'>
+      <section className='desktop-nav flex items-center justify-between border-b-2 border-slate-100 bg-white p-1'>
         <div className='desktop-nav-logo mx-auto'>
           <Link className='' href='/'>
             <Image src={logo} alt='Company Logo' width={83} loading='eager' />
@@ -23,11 +23,11 @@ const DesktopNav = () => {
           <div className='flex font-normal text-slate-800 uppercase text-sm'>
             <div className='relative group'>
               <Link
-                className={`border-l-2 font-semibold border-slate-200 p-9 group-hover:shadow-md`}
+                className={`border-l-2 font-semibold border-slate-100 p-9 group-hover:shadow-md`}
                 href='#'>
                 Services
               </Link>
-              <div className='absolute border-l-2 pb-1 font-semibold border-t-2 border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
+              <div className='absolute border-l-2 pb-1 font-semibold border-slate-100 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
@@ -127,7 +127,7 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className={`border-l-2 border-r-2 font-semibold border-slate-200 p-9 group-hover:shadow-md ${
+                className={`border-l-2 border-r-2 font-semibold border-slate-100 p-9 group-hover:shadow-md ${
                   pathname === '/projects' ? 'text-blue-500' : 'text-slate-800'
                 }`}
                 href='/projects'>
@@ -151,11 +151,11 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-r-2 border-slate-200 font-semibold p-9 group-hover:shadow-md '
+                className='border-r-2 border-slate-100 font-semibold p-9 group-hover:shadow-md '
                 href='#'>
                 Technical Partners
               </Link>
-              <div className='absolute border-r-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
+              <div className='absolute font-semibold border-slate-100 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
@@ -173,11 +173,11 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-r-2 border-slate-200 font-semibold p-9 group-hover:shadow-md'
+                className='border-r-2 border-slate-100 font-semibold p-9 group-hover:shadow-md'
                 href='#'>
                 Company Overview
               </Link>
-              <div className='absolute border-r-2 border-b-2 border-t-2 font-semibold border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
+              <div className='absolute font-semibold border-slate-100 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link

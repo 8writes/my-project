@@ -25,7 +25,7 @@ const ServicesContent = ({ title, image, children }) => {
           <div className='pb-32'>{children}</div>
         </div>
         <div
-          className='border-l-8 hidden flex-1 border-blue-500 lg:block lg:w-2/4 lg:sticky lg:top-36'
+          className='border-t-4 border-b-4 border-r-4 pr-3 pt-3 hidden flex-1  border-blue-400 lg:block lg:w-2/4 lg:sticky lg:top-36'
           style={{ height: '29rem' }}>
           <Image
             src={image}
@@ -33,7 +33,6 @@ const ServicesContent = ({ title, image, children }) => {
             className='w-full'
             style={{ height: '29rem' }}
           />
-          <div className='mt-10 h-1 mx-10 bg-blue-400 '></div>
         </div>
       </section>
     </div>
