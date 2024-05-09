@@ -5,11 +5,13 @@
 import Image from 'next/image'
 import image5 from '../../../public/images/civil-building.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesCivilMechanicalWorks = () => {
   return (
-    <div className=''>
-      <ServicesContent title='Civil / Mechanical Engineering' image={image5}>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='Civil / Mechanical Engineering' />
+      <ServicesContent image={image5}>
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Civil Engineering Services:
         </h3>

@@ -7,11 +7,13 @@ import image5 from '../../../public/images/cleaning-shore.jpg'
 import arrow from '../../../public/images/arrow-square-out-bold-svgrepo-com.svg'
 import ServicesContent from '@/components/services-content'
 import Link from 'next/link'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesWaste = () => {
   return (
-    <div className=''>
-      <ServicesContent title='WASTE MANAGEMENT' image={image5}>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='WASTE MANAGEMENT' />
+      <ServicesContent image={image5}>
         <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           Our expertise extends to the management of hazardous and biohazardous
           waste, ensuring safe handling and proper disposal in accordance with
@@ -58,10 +60,12 @@ const ServicesWaste = () => {
           Technical Partner
         </h3>
         <p className='text-orange-500 pb-2 leading-9 font-semibold uppercase tracking-wide'>
-          <Link href='https://en.efinorseacleaner.com/' target='_blank' className='flex items-center gap-2'>
+          <Link
+            href='https://en.efinorseacleaner.com/'
+            target='_blank'
+            className='flex items-center gap-2'>
             Efinor Sea Cleaner France
             <Image src={arrow} alt='' className='w-4' />
-              
           </Link>
         </p>
       </ServicesContent>

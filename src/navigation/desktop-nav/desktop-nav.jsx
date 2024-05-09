@@ -23,14 +23,14 @@ const DesktopNav = () => {
           <div className='flex font-normal text-slate-800 uppercase text-sm'>
             <div className='relative group'>
               <Link
-                className={`border-l-2 border-slate-200 p-9 group-hover:shadow-md`}
+                className={`border-l-2 font-semibold border-slate-200 p-9 group-hover:shadow-md`}
                 href='#'>
                 Services
               </Link>
               <div className='absolute border-l-2 pb-1 font-semibold border-t-2 border-slate-200 left-0 mt-8 bg-white shadow-md hidden group-hover:flex'>
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/borehole-drilling'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -39,7 +39,7 @@ const DesktopNav = () => {
                     Borehole Drilling
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/equipment-supplies'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -48,7 +48,7 @@ const DesktopNav = () => {
                     Equipment Supplies
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/building-construction'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -57,7 +57,7 @@ const DesktopNav = () => {
                     Building Construction
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/civil-mechanical-engineering'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -66,7 +66,7 @@ const DesktopNav = () => {
                     Civil / Mechanical Engineering Works
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/construction-materials-leasing'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -77,7 +77,7 @@ const DesktopNav = () => {
                 </div>
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className={`border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={`border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/waste-management'
                         ? 'text-blue-500'
                         : 'text-slate-700'
@@ -86,7 +86,7 @@ const DesktopNav = () => {
                     Waste Management
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/oil&gas'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -95,7 +95,7 @@ const DesktopNav = () => {
                     Oil and Gas
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/general-procurement'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -104,30 +104,30 @@ const DesktopNav = () => {
                     General Procurement
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/road-construction-erosion-control'
                         ? 'text-blue-500'
                         : 'text-slate-800'
                     }`}
                     href='/services/road-construction-erosion-control'>
-                    Road Construction Works / Erosion Control
+                    Road Construction / Erosion Control
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname ===
                       '/services/electrical-engineering-instruments'
                         ? 'text-blue-500'
                         : 'text-slate-800'
                     }`}
                     href='/services/electrical-engineering-instruments'>
-                    Electrical Engineering/instruments
+                    Electrical Engineering / instruments
                   </Link>
                 </div>
               </div>
             </div>
             <div className='relative group'>
               <Link
-                className={`border-l-2 border-r-2 border-slate-200 p-9 group-hover:shadow-md ${
+                className={`border-l-2 border-r-2 font-semibold border-slate-200 p-9 group-hover:shadow-md ${
                   pathname === '/projects' ? 'text-blue-500' : 'text-slate-800'
                 }`}
                 href='/projects'>
@@ -137,12 +137,12 @@ const DesktopNav = () => {
               
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
+                    className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all'
                     href='#'>
                     Ongoing Projects
                   </Link>
                   <Link
-                    className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
+                    className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all'
                     href='#'>
                     Finished Projects
                   </Link>
@@ -151,7 +151,7 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-r-2 border-slate-200 p-9 group-hover:shadow-md '
+                className='border-r-2 border-slate-200 font-semibold p-9 group-hover:shadow-md '
                 href='#'>
                 Technical Partners
               </Link>
@@ -159,12 +159,12 @@ const DesktopNav = () => {
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className=' border-transparent p-3 hover:text-orange-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
+                    className=' border-transparent p-3 hover:text-orange-500 hover:border-slate-200 scale-95 transition-all'
                     href='#'>
                     EFINOR SEA CLEANER FRANCE
                   </Link>
                   <Link
-                    className='border-transparent p-3 hover:text-green-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
+                    className='border-transparent p-3 hover:text-green-500 hover:border-slate-200 scale-95 transition-all'
                     href='#'>
                     HOPPECKE BATTERIEN GERMANY
                   </Link>
@@ -173,7 +173,7 @@ const DesktopNav = () => {
             </div>
             <div className='relative group'>
               <Link
-                className='border-r-2 border-slate-200 p-9 group-hover:shadow-md'
+                className='border-r-2 border-slate-200 font-semibold p-9 group-hover:shadow-md'
                 href='#'>
                 Company Overview
               </Link>
@@ -181,16 +181,16 @@ const DesktopNav = () => {
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/about-us'
                         ? 'text-blue-500'
                         : 'text-slate-800'
                     }`}
                     href='/about-us'>
-                    About Us
+                   Company History
                   </Link>
                   <Link
-                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all ${
+                    className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/board-of-directors'
                         ? 'text-blue-500'
                         : 'text-slate-800'
@@ -199,7 +199,7 @@ const DesktopNav = () => {
                     Board Of Directors
                   </Link>
                   <Link
-                    className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 hover:scale-100 transition-all'
+                    className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all'
                     href='#'>
                     Gallery
                   </Link>

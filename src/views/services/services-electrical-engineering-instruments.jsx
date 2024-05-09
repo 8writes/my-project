@@ -6,13 +6,13 @@ import Image from 'next/image'
 import image5 from '../../../public/images/electrical.jpg'
 import image2 from '../../../public/images/instrument.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesElectricalEngineering = () => {
   return (
-    <div className=''>
-      <ServicesContent
-        title='ELECTRICAL ENGINEERING / instruments'
-        image={image5}>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='ELECTRICAL ENGINEERING / instruments' />
+      <ServicesContent image={image5}>
         <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           <span className='text-blue-500 font-semibold'>
             ON-POINT DYNAMICS SYNERGY LIMITED

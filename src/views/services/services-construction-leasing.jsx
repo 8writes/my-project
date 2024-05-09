@@ -5,13 +5,13 @@
 import Image from 'next/image'
 import image5 from '../../../public/images/heavy-truck.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesConstructionMaterialsLeasing = () => {
   return (
-    <div className=''>
-      <ServicesContent
-        title='CONSTRUCTION MATERIALS / HEAVY DUTY EQUIPMENT LEASING'
-        image={image5}>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='MATERIALS / EQUIPMENTS LEASING' />
+      <ServicesContent image={image5}>
         <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           We specialize in providing comprehensive solutions to support your
           construction projects, infrastructure development endeavors, and

@@ -13,7 +13,7 @@ function PagesHeader({ title }) {
         {title}
       </h1>
       <div className='text-white uppercase text-sm items-center flex font-semibold gap-2'>
-        <Link href='/'>Home</Link>
+        <Link className='hover:text-blue-400 hover:underline' href='/'>Home</Link>
         <Image src={arrow} alt='' className='w-3' />
         <p> {title}</p>
       </div>

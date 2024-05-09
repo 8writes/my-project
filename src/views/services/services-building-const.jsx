@@ -5,11 +5,13 @@
 import Image from 'next/image'
 import image from '../../../public/images/building.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesBuildingConst = () => {
   return (
-    <div className=''>
-      <ServicesContent title='Building Construction' image={image}>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='Building Construction' />
+      <ServicesContent image={image}>
         <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             <h3 className='text-xl font-medium text-blue-500 leading-9'>

@@ -5,11 +5,13 @@
 import Image from 'next/image'
 import image5 from '../../../public/images/img-1.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesGeneralProcurement = () => {
   return (
-    <div className=''>
-      <ServicesContent title='General Procurement' image={image5}>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='General Procurement' />
+      <ServicesContent image={image5}>
         <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           Our general procurement services provide comprehensive solutions to
           streamline the sourcing and acquisition processes for businesses

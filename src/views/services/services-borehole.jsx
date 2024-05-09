@@ -12,7 +12,6 @@ const ServicesBorehole = () => {
     <div className=' pt-16 lg:pt-20'>
       <PagesHeader title='BOREHOLE DRILLING' />
       <ServicesContent image={image}>
-       
         <h1 className='text-blue-500 py-2 font-semibold uppercase'>
           Water Borehole Services:
         </h1>

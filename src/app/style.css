@@ -5,8 +5,8 @@
   background-attachment: fixed;
   background-image: linear-gradient(
       90deg,
-      rgba(0, 0, 0, 0.769),
-      rgba(0, 0, 0, 0.87)
+      rgba(0, 0, 0, 0.595),
+      rgba(0, 0, 0, 0.786)
     ),
     url('../../public/bg/photo-collage.png.png');
   background-position: center;

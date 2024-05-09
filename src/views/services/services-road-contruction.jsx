@@ -5,15 +5,17 @@
 import Image from 'next/image'
 import image5 from '../../../public/images/road.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const ServicesRoadConstruction = () => {
   return (
-    <div className=''>
-      <ServicesContent
-        title='ROAD CONSTRUCTION / EROSION CONTROL'
-        image={image5}>
-          <h3 className='text-xl font-medium text-blue-500 leading-9'>Road Construction Services:</h3>
-         <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='ROAD CONSTRUCTION' />
+      <ServicesContent image={image5}>
+        <h3 className='text-xl font-medium text-blue-500 leading-9'>
+          Road Construction Services:
+        </h3>
+        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Road Planning and Design: Our experienced engineers collaborate with
             clients to create customized road designs that meet their needs and
@@ -41,8 +43,10 @@ const ServicesRoadConstruction = () => {
           </li>
         </ol>
 
-          <h3 className='text-xl font-medium text-blue-500 leading-9'>Erosion Control Services:</h3>
-         <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <h3 className='text-xl font-medium text-blue-500 leading-9'>
+          Erosion Control Services:
+        </h3>
+        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Erosion Assessment: Through detailed site assessments, we identify
             erosion risks and develop personalized erosion control plans to
@@ -72,8 +76,10 @@ const ServicesRoadConstruction = () => {
           </li>
         </ol>
 
-          <h3 className='text-xl font-medium text-blue-500 leading-9'>Maintenance and Monitoring:</h3>
-         <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <h3 className='text-xl font-medium text-blue-500 leading-9'>
+          Maintenance and Monitoring:
+        </h3>
+        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Regular Inspections: We conduct routine inspections of roads and
             erosion control measures to identify issues early and implement
@@ -93,8 +99,10 @@ const ServicesRoadConstruction = () => {
           </li>
         </ol>
 
-          <h3 className='text-xl font-medium text-blue-500 leading-9'>Environmental Compliance:</h3>
-         <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <h3 className='text-xl font-medium text-blue-500 leading-9'>
+          Environmental Compliance:
+        </h3>
+        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Regulatory Compliance: We ensure that all our road construction and
             erosion control activities comply with relevant environmental

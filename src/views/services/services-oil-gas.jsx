@@ -5,11 +5,13 @@
 import Image from 'next/image'
 import image5 from '../../../public/images/Oil-Gas-Extraction.jpg'
 import ServicesContent from '@/components/services-content'
+import PagesHeader from '@/components/pages-header'
 
 const OilAndGas = () => {
   return (
-    <div className=''>
-      <ServicesContent title='Oil And Gas' image={image5}>
+    <div className='pt-16 lg:pt-20'>
+      <PagesHeader title='Oil and Gas' />
+      <ServicesContent image={image5}>
         <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
           ON-POINT DYNAMICS SYNERGY LIMITED has an unyielding commitment to
           health and Safety, environmental protection, and the provision of
