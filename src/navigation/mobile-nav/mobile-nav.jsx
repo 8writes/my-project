@@ -167,7 +167,7 @@ const MobileNav = () => {
                           pathname ===
                           '/services/construction-materials-leasing'
                             ? 'text-blue-500'
-                            : 'text-slate-800'
+                            : 'text-slate-700'
                         }`}
                         onClick={toggleMenuClose}
                         href='/services/construction-materials-leasing'>
