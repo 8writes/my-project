@@ -20,7 +20,7 @@ const AboutUs = () => {
           About
         </p>
 
-        <h1 className='font-extrabold pb-10 text-slate-800 text-3xl md:text-4xl'>
+        <h1 className='font font-extrabold pb-10 text-slate-800 text-3xl md:text-4xl'>
           Building Nigeria's Future, One Project at a Time.
         </h1>
 
@@ -33,7 +33,7 @@ const AboutUs = () => {
           duration: 0.2,
         }}
         className='my-auto w-full lg:flex-1 flex flex-col gap-5'>
-        <p className='text-slate-800 text-base pt-3 font-medium'>
+        <p className='text-slate-800 font text-base pt-3 font-medium'>
           We are a leading construction company in Nigeria. Specializing in
           general contracting, oil and gas services, construction management,
           and pre-engineered metal buildings, we serve commercial and industrial

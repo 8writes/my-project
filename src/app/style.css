@@ -7,6 +7,10 @@
   background-position: center;
   font-family: 'Oswald', sans-serif;
 }
+.font {
+  font-family: 'Oswald', sans-serif;
+
+}
 .about {
   background-size: contain;
   background-attachment: fixed;
@@ -259,7 +263,7 @@
     padding-top: 20px;
     font-weight: 600;
   }*/
-  
+
   .card h2 {
     font-size: 1.6rem;
     line-height: 1;
