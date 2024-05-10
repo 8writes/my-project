@@ -377,7 +377,7 @@ const MobileNav = () => {
                             : 'text-slate-700'
                         }`}
                         onClick={toggleMenuClose}
-                        href='about-us'>
+                        href='/about-us'>
                         About Us
                       </Link>
                       <Link
@@ -387,7 +387,7 @@ const MobileNav = () => {
                             : 'text-slate-700'
                         }`}
                         onClick={toggleMenuClose}
-                        href='board-of-directors'>
+                        href='/board-of-directors'>
                         Board Of Directors
                       </Link>
                       <Link
@@ -411,7 +411,7 @@ const MobileNav = () => {
                       delay: 0.7,
                     },
                   }}>
-                  <Link href='contact'>
+                  <Link href='/contact'>
                     <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-95 px-10 py-4 text-white uppercase'>
                       Contact
                     </button>

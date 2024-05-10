@@ -2,28 +2,27 @@
 
 'use client'
 
-import Image from 'next/image'
-import image from '../../../public/images/img-1.jpg'
 import PagesHeader from '@/components/pages-header'
+import BasicTabs from './tab'
 
 const AboutUs = () => {
   return (
-    <div className='bg-white pt-16 lg:pt-20'>
+    <div className='about bg-white pt-16 lg:pt-20'>
       <PagesHeader title='Company History' />
       <div className='p-5 lg:px-20'>
         <div className='flex flex-wrap py-20 gap-10 relative '>
           <div className=' lg:flex-1 lg:ml-5 w-full lg:w-fit'>
-            <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
+            <p className='uppercase text-blue-500 font-bold text-xl tracking-wide pb-5'>
               Who we are
             </p>
             <div className='w-32 h-1 bg-blue-400'></div>
-            <h1 className='text-3xl md:text-5xl uppercase py-10 text-blue-500 font-extrabold'>
+            <h1 className='text-2xl md:text-5xl tracking-wider uppercase py-10 text-blue-500 font-extrabold'>
               ON-PO𝕀NT DYNAMICS SYNERGY History.
             </h1>
-            <p className='text-slate-800 text-sm leading-loose tracking-wider font-medium'>
-              Founded in 2015 with Registration Number 1260047.
+            <p className='text-slate-800 text-base lg:text-xl leading-loose font-medium'>
+              Founded in 2015 with Registration Number <span className='text-red-500 font-semibold'> 1260047</span> .
             </p>
-            <p className='text-slate-800 py-4 text-sm leading-relaxed tracking-wider font-medium'>
+            <p className='text-slate-800 py-4 text-base leading-relaxed tracking-wider font-medium'>
               ON-POINT DYNAMICS SYNERGY LIMITED provides general contracting,
               oil and gas services, construction management, and pre-engineered
               metal buildings services to a broad range of commercial and
@@ -33,7 +32,7 @@ const AboutUs = () => {
               important as the bottom line.
             </p>
 
-            <p className='text-slate-800 text-sm leading-loose tracking-wider font-medium'>
+            <p className='text-slate-800 text-base leading-loose tracking-wider font-medium'>
               ON-POINT DYNAMICS SYNERGY LIMITED has enjoyed an impeccable
               reputation for over 8 years. We have never failed to complete a
               project and have never had a bond claim. Schedules and budgets are
@@ -53,6 +52,9 @@ const AboutUs = () => {
               </span>
             </p>
           </div>
+        </div>
+        <div className='pb-32'>
+        <BasicTabs />
         </div>
       </div>
     </div>

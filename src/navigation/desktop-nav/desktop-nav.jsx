@@ -209,7 +209,7 @@ const DesktopNav = () => {
           </div>
         </div>
         <div className='desktop-nav-end  mx-auto'>
-          <Link href='contact'>
+          <Link href='/contact'>
             <button className='font-medium border-2 border-transparent bg-blue-400 px-10 py-4 text-white uppercase hover:bg-white hover:shadow-md hover:text-blue-500 hover:border-blue-400  transition-all'>
               Contact
             </button>
