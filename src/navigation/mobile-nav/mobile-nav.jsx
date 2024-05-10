@@ -241,7 +241,7 @@ const MobileNav = () => {
                     },
                   }}>
                   <Link
-                    href='projects'
+                    href='/projects'
                     className={`border-slate-200 flex items-center justify-between ${
                       pathname === '/projects'
                         ? 'text-blue-500'
