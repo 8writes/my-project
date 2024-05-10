@@ -10,7 +10,7 @@ const AboutUs = () => {
     <div className='about bg-white pt-16 lg:pt-20'>
       <PagesHeader title='Company History' />
       <div className='p-5 lg:px-20'>
-        <div className='flex flex-wrap py-20 gap-10 relative '>
+        <div className='flex flex-wrap pt-20 pb-10 gap-10 relative '>
           <div className=' lg:flex-1 lg:ml-5 w-full lg:w-fit'>
             <p className='uppercase text-blue-500 font-bold text-xl tracking-wide pb-5'>
               Who we are
@@ -53,7 +53,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className='pb-32'>
+        <div className='pb-40'>
         <BasicTabs />
         </div>
       </div>
