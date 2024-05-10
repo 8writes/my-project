@@ -53,7 +53,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className='pb-40'>
+        <div className='pb-40 lg:pb-32'>
         <BasicTabs />
         </div>
       </div>
