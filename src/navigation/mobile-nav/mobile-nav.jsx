@@ -376,6 +376,7 @@ const MobileNav = () => {
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}
+                        onClick={toggleMenuClose}
                         href='about-us'>
                         About Us
                       </Link>
@@ -385,11 +386,13 @@ const MobileNav = () => {
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}
+                        onClick={toggleMenuClose}
                         href='board-of-directors'>
                         Board Of Directors
                       </Link>
                       <Link
-                        className=' border-transparent p-3 hover:border-slate-200 scale-95'
+                        onClick={toggleMenuClose}
+                        className=' border-transparent p-3 text-slate-700 hover:border-slate-200 scale-95'
                         href='#'>
                         Gallery
                       </Link>
@@ -409,11 +412,10 @@ const MobileNav = () => {
                     },
                   }}>
                   <Link href='contact'>
-                   <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-95 px-10 py-4 text-white uppercase'>
-                    Contact
-                  </button>
+                    <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-95 px-10 py-4 text-white uppercase'>
+                      Contact
+                    </button>
                   </Link>
-                 
                 </motion.div>
               </div>
             </div>
