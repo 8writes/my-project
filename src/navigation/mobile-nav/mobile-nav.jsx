@@ -411,7 +411,7 @@ const MobileNav = () => {
                       delay: 0.7,
                     },
                   }}>
-                  <Link href='/contact'>
+                  <Link onClick={toggleMenuClose} href='/contact'>
                     <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-95 px-10 py-4 text-white uppercase'>
                       Contact
                     </button>
