@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const ServicesContent = ({ title, image, children }) => {
   return (
-    <div className='px-5 lg:px-20 lg:pt-24 pb-24 bg-white projects-page'>
+    <div className='px-5 lg:px-20 lg:pt-24 pb-32 bg-white projects-page'>
       <section className='relative flex flex-wrap lg:min-h-screen lg:justify-center gap-5 lg:gap-5 xl:gap-10'>
         <div className='pt-10 lg:ml-4 lg:pt-10 flex-1'>
           <div
@@ -21,7 +21,7 @@ const ServicesContent = ({ title, image, children }) => {
               style={{ height: '24rem' }}
             />
           </div>
-          <div className='py-20 lg:pt-0'>{children}</div>
+          <div className='pb-32 pt-20 lg:py-20 lg:pt-0'>{children}</div>
         </div>
         <div
           className='border-t-4 border-b-4 border-r-4 pr-3 pt-3 hidden flex-1  border-blue-400 lg:block lg:w-2/4 lg:sticky lg:top-36'
