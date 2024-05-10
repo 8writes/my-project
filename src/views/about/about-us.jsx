@@ -20,7 +20,7 @@ const AboutUs = () => {
               ON-PO𝕀NT DYNAMICS SYNERGY History.
             </h1>
             <p className='text-slate-800 text-base lg:text-xl leading-loose font-medium'>
-              Founded in 2015 with Registration Number <span className='text-red-500 font-semibold'> 1260047</span> .
+              Founded in 2015 with Registration Number <span className='text-red-500 font-semibold'>1260047</span>.
             </p>
             <p className='text-slate-800 py-4 text-base leading-relaxed tracking-wider font-medium'>
               ON-POINT DYNAMICS SYNERGY LIMITED provides general contracting,
