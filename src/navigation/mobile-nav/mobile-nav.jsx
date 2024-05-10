@@ -319,12 +319,12 @@ const MobileNav = () => {
                     <div className='flex flex-col w-80 text-base py-3'>
                       <Link
                         className=' border-transparent p-3 text-orange-500 hover:border-slate-200 scale-95'
-                        href='#'>
+                        href='https://en.efinorseacleaner.com/'>
                         EFINOR SEA CLEANER FRANCE
                       </Link>
                       <Link
                         className=' border-transparent p-3 text-green-500 hover:border-slate-200 scale-95'
-                        href='#'>
+                        href='https://www.hoppecke.com/en/products/'>
                         HOPPECKE BATTERIEN GERMANY
                       </Link>
                     </div>
@@ -376,7 +376,7 @@ const MobileNav = () => {
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}
-                        href='/about-us'>
+                        href='about-us'>
                         About Us
                       </Link>
                       <Link
@@ -385,7 +385,7 @@ const MobileNav = () => {
                             ? 'text-blue-500'
                             : 'text-slate-700'
                         }`}
-                        href='/board-of-directors'>
+                        href='board-of-directors'>
                         Board Of Directors
                       </Link>
                       <Link
@@ -408,9 +408,12 @@ const MobileNav = () => {
                       delay: 0.7,
                     },
                   }}>
-                  <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-95 px-10 py-4 text-white uppercase'>
+                  <Link href='contact'>
+                   <button className='font-medium border-x-2 border-t-2 border-transparent bg-blue-500 opacity-95 px-10 py-4 text-white uppercase'>
                     Contact
                   </button>
+                  </Link>
+                 
                 </motion.div>
               </div>
             </div>

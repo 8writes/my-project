@@ -89,7 +89,7 @@ const Footer = () => {
                 <li>
                   <Link
                     className=' hover:text-green-500 hover:underline'
-                    href='https://www.hoppecke.com/en/'>
+                    href='https://www.hoppecke.com/en/products/'>
                     Hoppecke Batterien Germany
                   </Link>
                 </li>

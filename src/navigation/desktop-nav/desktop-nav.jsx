@@ -160,12 +160,12 @@ const DesktopNav = () => {
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
                     className=' border-transparent p-3 hover:text-orange-500 hover:border-slate-200 scale-95 transition-all'
-                    href='#'>
+                    href='https://en.efinorseacleaner.com/'>
                     EFINOR SEA CLEANER FRANCE
                   </Link>
                   <Link
                     className='border-transparent p-3 hover:text-green-500 hover:border-slate-200 scale-95 transition-all'
-                    href='#'>
+                    href='https://www.hoppecke.com/en/products/'>
                     HOPPECKE BATTERIEN GERMANY
                   </Link>
                 </div>
@@ -187,7 +187,7 @@ const DesktopNav = () => {
                         : 'text-slate-800'
                     }`}
                     href='/about-us'>
-                   Company History
+                    Company History
                   </Link>
                   <Link
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
@@ -209,11 +209,13 @@ const DesktopNav = () => {
           </div>
         </div>
         <div className='desktop-nav-end  mx-auto'>
-          <button className='font-medium border-2 border-transparent bg-blue-400 px-10 py-4 text-white uppercase hover:bg-white hover:shadow-md hover:text-blue-500 hover:border-blue-400  transition-all'>
-            Contact
-          </button>
+          <Link href='contact'>
+            <button className='font-medium border-2 border-transparent bg-blue-400 px-10 py-4 text-white uppercase hover:bg-white hover:shadow-md hover:text-blue-500 hover:border-blue-400  transition-all'>
+              Contact
+            </button>
+          </Link>
         </div>
-      </section>
+      </section> 
     </div>
   )
 }
