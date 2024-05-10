@@ -85,7 +85,7 @@ const ServicesHome = () => {
                 alt=''
               />
             </span>
-            <p className='text-base font-medium text-slate-800 py-10 '>
+            <p className='text-base font-medium tracking-wide  text-slate-800 py-10 '>
               We ensure that our clients' construction needs and requirements
               are fulfilled through accessible and cost-effective solutions that
               generate, retain, and enhance value for all stakeholders.
