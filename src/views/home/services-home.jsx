@@ -68,7 +68,7 @@ const ServicesHome = () => {
             duration: 0.2,
           }}
           className='services-left-content'>
-          <div className='sticky w-11/12 top-52'>
+          <div className='sticky w-full lg:w-11/12 top-52'>
             <p className='uppercase text-blue-500 font-bold tracking-wide pb-5'>
               ON-PO𝕀NT DYNAMICS SYNERGY
             </p>
@@ -85,10 +85,9 @@ const ServicesHome = () => {
                 alt=''
               />
             </span>
-            <p className='services-text text-base font-medium text-slate-800 py-10 '>
-              <span className=' font-semibold text-blue-500 text-xl'>We</span>{' '}
-              ensure that our clients' construction needs and requirements are
-              fulfilled through accessible and cost-effective solutions that
+            <p className='text-base font-medium text-slate-800 py-10 '>
+              We ensure that our clients' construction needs and requirements
+              are fulfilled through accessible and cost-effective solutions that
               generate, retain, and enhance value for all stakeholders.
             </p>
             <div className=' h-0.5 bg-blue-400'></div>
