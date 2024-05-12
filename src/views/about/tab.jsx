@@ -58,14 +58,14 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <p className='text-slate-800 py-4 text-base leading-relaxed tracking-wider font-medium'>
+        <p className='text-slate-700 py-4 text-base leading-relaxed tracking-wider font-medium'>
           To ensure that customers’ construction needs and demands are met
           through the most accessible and affordable way that creates, captures
           and sustains value of all stakeholders.
         </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <p className='text-slate-800 py-4 text-base leading-relaxed tracking-wider font-medium'>
+        <p className='text-slate-700 py-4 text-base leading-relaxed tracking-wider font-medium'>
           To be the top civil and electrical engineering company in Nigeria,
           delivering superior quality service, geared towards customer’s
           satisfaction.

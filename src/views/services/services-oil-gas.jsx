@@ -12,12 +12,12 @@ const OilAndGas = () => {
     <div className='pt-16 lg:pt-20'>
       <PagesHeader title='Oil and Gas' />
       <ServicesContent image={image5}>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           ON-POINT DYNAMICS SYNERGY LIMITED has an unyielding commitment to
           health and Safety, environmental protection, and the provision of
           high-quality services.
         </p>
-        <p className='text-slate-800 pt-5 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pt-5 pb-2 leading-9 tracking-wide'>
           With over 5 years of industry experience, ON-POINT DYNAMICS SYNERGY
           LIMITED works with its customers in the bespoke design, establishment,
           and management of oil spill response requirements. They provide oil
@@ -31,7 +31,7 @@ const OilAndGas = () => {
           and industrial cleaning services.
         </p>
 
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
           <li>Oil Spill Prevention/Remediation and Pollution Control</li>
           <li>Supply of Petroleum products</li>
           <li>Capital dredging of oil well location accesses and slots</li>
@@ -47,10 +47,10 @@ const OilAndGas = () => {
           </li>
         </ol>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           We lease marine and construction equipment such as:
         </p>
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
           <li>Houseboats</li>
           <li>Barges</li>
           <li>Tugboats</li>
@@ -61,12 +61,12 @@ const OilAndGas = () => {
           </li>
         </ol>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           We Haul, Supply sand, Chipping, and other aggregates to and for oil
           service and construction companies.
         </p>
         <h2>We Supply:</h2>
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
           <li>
             Chemicals, Mechanical and Electrical equipment spares and tools to
             oil companies.
@@ -74,7 +74,7 @@ const OilAndGas = () => {
           <li>Oil Spill Prevention/Remediation and Pollution Control.</li>
         </ol>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Oil Spills can have devastating effects on local environments and
           company reputations, although often, spills are easily preventable.
           With the right response training, personnel and equipment maintenance
@@ -89,7 +89,7 @@ const OilAndGas = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Oil Spill Services Include:
         </h3>
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
           <li>Incident Response</li>
           <li>Management & Clean-up</li>
           <li>
@@ -108,7 +108,7 @@ const OilAndGas = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Maintenance Services
         </h3>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Aqua Blasting, Tanks and Vessel Cleanings, Surface Preparation,
           Coating Removal and Recoating: Typical works include gas freeing,
           confined space entry and removal of all contaminants and waste streams
@@ -118,7 +118,7 @@ const OilAndGas = () => {
           extending the lifecycle.
         </p>
 
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
           <li>Ballast Tanks</li>
           <li>Pontoon Tanks</li>
           <li>Mud Tanks</li>
@@ -130,21 +130,21 @@ const OilAndGas = () => {
           <li>Portable Water Tanks</li>
         </ol>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           We have developed a range of innovation technologies and methods using
           tank cleaning heads, vacuum transfer systems and other pumping
           solutions to clean tanks and vessels with minimum man entry.
         </p>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Aspects of these services include:
         </p>
 
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
           <li>Minimize Down time with the Latest Water blasting Technology</li>
         </ol>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           ON-POINT DYNAMICS SYNERGY LIMITED has invested heavily in the latest
           water blasting technology, tooling, accessories and ancillary
           equipment. This inventory is coupled with years’ experience garnered
@@ -159,24 +159,24 @@ const OilAndGas = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Dredging
         </h3>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           ON-POINT DYNAMICS SYNERGY LIMITED carries out major activities in
           dredging and solving coastal erosion problems through the design and
           implementation of shoreline protection techniques.
         </p>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           SAND DREDGING = 1070 Horse Power dredging power, we are the most
           equipped privately held company who can deliver sand quality on the
           beaches anywhere in Nigeria.
         </p>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           So, be prepared to get your hands busy because once we accept your
           contracts, we will have the job done.
         </p>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Our commitment to our clients is a service level that is unequaled in
           the industry in Nigeria. We ask you to bring your next sand and other
           dredging services to us so that you can have more time to develop your
@@ -186,7 +186,7 @@ const OilAndGas = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Land Reclamation
         </h3>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Reclaim your piece of waterfront property for development or addition
           to already developed pieces of land. We will help you every step of
           the way as the dredging project moves on.
@@ -195,18 +195,18 @@ const OilAndGas = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Harbour Dredging
         </h3>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           On the harbor we are kings because we can make your piece of property
           on the harbor habitable.
         </p>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           So when you think of harbor dredging in Nigeria, think ON-POINT
           DYNAMICS SYNERGY LIMITED because we are equipped and ready to go to
           work for you.
         </p>
 
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Our manpower and technical resources are geared towards projects like
           harbor dredging, so we won't let you down.
         </p>
@@ -214,7 +214,7 @@ const OilAndGas = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Beach Restoration
         </h3>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Beaches are preferably spacious. Erosion has always been the worst
           culprit when it comes to land encroachment. We at ON-POINT DYNAMICS
           SYNERGY LIMITED will work tirelessly if hired to prevent cases of

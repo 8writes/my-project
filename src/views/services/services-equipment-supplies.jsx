@@ -12,7 +12,7 @@ const ServicesEquipmentSupplies = () => {
     <div className='pt-16 lg:pt-20'>
       <PagesHeader title='Equipments Supplies' />
       <ServicesContent image={image5}>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Product Sourcing: Finding and selecting construction materials &
             equipments from reliable suppliers.

@@ -11,6 +11,7 @@ import logo from '../../../public/logo/logo.png'
 import openMenu from '../../../public/images/menu.png'
 import closeMenu from '../../../public/images/close.png'
 import dropdown from '../../../public/images/down.png'
+import arrow from '../../../public/images/arrow-square-out-bold-svgrepo-com.svg'
 
 const MobileNav = () => {
   const pathname = usePathname()
@@ -245,7 +246,7 @@ const MobileNav = () => {
                     className={`border-slate-200 flex items-center justify-between ${
                       pathname === '/projects'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     onClick={toggleMenuClose}>
                     Projects
@@ -318,14 +319,18 @@ const MobileNav = () => {
                     {/* Dropdown content */}
                     <div className='flex flex-col w-80 text-base py-3'>
                       <Link
-                        className=' border-transparent p-3 text-orange-500 hover:border-slate-200 scale-95'
-                        href='https://en.efinorseacleaner.com/'>
-                        EFINOR SEA CLEANER FRANCE
+                        target='_blank'
+                        className=' border-transparent p-3 flex items-center gap-2 hover:text-orange-500 hover:border-slate-200 scale-95 transition-all'
+                        href='https://en.efinorseacleaner.com/gammes-de-navires/waste-cleaner'>
+                        EFINOR SEA CLEANER FRANCE{' '}
+                        <Image src={arrow} alt='' className='w-4' />
                       </Link>
                       <Link
-                        className=' border-transparent p-3 text-green-500 hover:border-slate-200 scale-95'
+                        target='_blank'
+                        className='border-transparent flex items-center gap-2 p-3 hover:text-green-500 hover:border-slate-200 scale-95 transition-all'
                         href='https://www.hoppecke.com/en/products/'>
-                        HOPPECKE BATTERIEN GERMANY
+                        HOPPECKE BATTERIEN GERMANY{' '}
+                        <Image src={arrow} alt='' className='w-4' />
                       </Link>
                     </div>
                   </motion.div>

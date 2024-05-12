@@ -15,7 +15,7 @@ const ServicesBorehole = () => {
         <h1 className='text-blue-500 py-2 font-semibold uppercase'>
           Water Borehole Services:
         </h1>
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Our team of experienced hydrogeologists and drilling experts utilize
             state-of-the-art equipment and innovative techniques to locate and
@@ -50,7 +50,7 @@ const ServicesBorehole = () => {
             resource efficiency.
           </li>
         </ol>
-        <p className='text-slate-800 pt-5 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pt-5 pb-2 leading-9 tracking-wide'>
           Partner with On-Point Dynamics Synergy Limited for all your water
           borehole needs and experience the peace of mind that comes with
           knowing you have a reliable and sustainable water supply solution

@@ -12,7 +12,7 @@ const ServicesGeneralProcurement = () => {
     <div className='pt-16 lg:pt-20'>
       <PagesHeader title='General Procurement' />
       <ServicesContent image={image5}>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           Our general procurement services provide comprehensive solutions to
           streamline the sourcing and acquisition processes for businesses
           across various industries. From sourcing raw materials and components

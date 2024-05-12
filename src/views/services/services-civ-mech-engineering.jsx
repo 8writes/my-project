@@ -15,7 +15,7 @@ const ServicesCivilMechanicalWorks = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Civil Engineering Services:
         </h3>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Structural Engineering: Designing safe and sturdy buildings,
             bridges, and other structures.
@@ -45,7 +45,7 @@ const ServicesCivilMechanicalWorks = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Mechanical Engineering Services:
         </h3>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Product Design and Development: Creating new products, from
             household appliances to industrial machinery.

@@ -19,10 +19,11 @@ const AboutUs = () => {
             <h1 className='text-2xl md:text-5xl tracking-wider uppercase py-10 text-blue-500 font-extrabold'>
               ON-PO𝕀NT DYNAMICS SYNERGY History.
             </h1>
-            <p className='text-slate-800 text-base lg:text-xl leading-loose font-medium'>
-              Founded in 2015 with Registration Number <span className='text-red-500 font-semibold'>1260047</span>.
+            <p className='text-slate-700 text-base lg:text-xl leading-loose font-medium'>
+              Founded in 2015 with Registration Number{' '}
+              <span className='text-red-500 font-semibold'>1260047</span>.
             </p>
-            <p className='text-slate-800 py-4 text-base leading-relaxed tracking-wider font-medium'>
+            <p className='text-slate-700 py-4 text-base leading-relaxed tracking-wider font-medium'>
               ON-POINT DYNAMICS SYNERGY LIMITED provides general contracting,
               oil and gas services, construction management, and pre-engineered
               metal buildings services to a broad range of commercial and
@@ -32,7 +33,7 @@ const AboutUs = () => {
               important as the bottom line.
             </p>
 
-            <p className='text-slate-800 text-base leading-loose tracking-wider font-medium'>
+            <p className='text-slate-700 text-base leading-loose tracking-wider font-medium'>
               ON-POINT DYNAMICS SYNERGY LIMITED has enjoyed an impeccable
               reputation for over 8 years. We have never failed to complete a
               project and have never had a bond claim. Schedules and budgets are
@@ -54,7 +55,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className='pb-40 lg:pb-32'>
-        <BasicTabs />
+          <BasicTabs />
         </div>
       </div>
     </div>

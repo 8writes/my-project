@@ -13,6 +13,8 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'ON-POINT DYNAMICS SYNERGY',
   description: 'Top civil and electrical engineering company in Nigeria',
+  name: "google-site-verification",
+  content: "M6OoraMA-ohCavhaLIPO65l2LPu-TZVMkdMms9-2Df0"
 }
 
 export default function RootLayout({ children }) {

@@ -15,7 +15,7 @@ const ServicesRoadConstruction = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Road Construction Services:
         </h3>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Road Planning and Design: Our experienced engineers collaborate with
             clients to create customized road designs that meet their needs and
@@ -46,7 +46,7 @@ const ServicesRoadConstruction = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Erosion Control Services:
         </h3>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Erosion Assessment: Through detailed site assessments, we identify
             erosion risks and develop personalized erosion control plans to
@@ -79,7 +79,7 @@ const ServicesRoadConstruction = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Maintenance and Monitoring:
         </h3>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Regular Inspections: We conduct routine inspections of roads and
             erosion control measures to identify issues early and implement
@@ -102,7 +102,7 @@ const ServicesRoadConstruction = () => {
         <h3 className='text-xl font-medium text-blue-500 leading-9'>
           Environmental Compliance:
         </h3>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             Regulatory Compliance: We ensure that all our road construction and
             erosion control activities comply with relevant environmental

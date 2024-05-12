@@ -12,7 +12,7 @@ const ServicesBuildingConst = () => {
     <div className='pt-16 lg:pt-20'>
       <PagesHeader title='Building Construction' />
       <ServicesContent image={image}>
-        <ol className='text-slate-800 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
+        <ol className='text-slate-700 ml-5 pb-2 list-decimal leading-9 tracking-wide'>
           <li>
             <h3 className='text-xl font-medium text-blue-500 leading-9'>
               Residential Construction
@@ -81,7 +81,7 @@ const ServicesBuildingConst = () => {
             </p>
           </li>
         </ol>
-        <p className='text-slate-800 pt-5 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pt-5 pb-2 leading-9 tracking-wide'>
           In summary, whether you envision a personalized residential retreat or
           a cutting-edge commercial hub, our comprehensive services encompass
           design, construction, and project management, all driven by a

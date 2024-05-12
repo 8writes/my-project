@@ -12,12 +12,12 @@ const ServicesConstructionMaterialsLeasing = () => {
     <div className='pt-16 lg:pt-20'>
       <PagesHeader title='MATERIALS / EQUIPMENTS LEASING' />
       <ServicesContent image={image5}>
-        <p className='text-slate-800 pb-2 leading-9 tracking-wide'>
+        <p className='text-slate-700 pb-2 leading-9 tracking-wide'>
           We specialize in providing comprehensive solutions to support your
           construction projects, infrastructure development endeavors, and
           industrial operations. Here's how we can empower your success:
         </p>
-        <ol className='text-slate-800 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
+        <ol className='text-slate-700 ml-5 pt-5 pb-2 leading-9 list-decimal tracking-wide'>
           <li>
             Equipment Leasing Excellence: Access a diverse fleet of heavy-duty
             machinery and equipment on flexible lease terms. From excavators and

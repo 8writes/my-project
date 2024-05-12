@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
+import arrow from '../../../public/images/arrow-square-out-bold-svgrepo-com.svg'
 import logo from '../../../public/logo/logo.png'
 
 const DesktopNav = () => {
@@ -20,7 +21,7 @@ const DesktopNav = () => {
           </Link>
         </div>
         <div className='desktop-nav-link mx-auto'>
-          <div className='flex font-normal text-slate-800 uppercase text-sm'>
+          <div className='flex font-normal text-slate-700 uppercase text-sm'>
             <div className='relative group'>
               <Link
                 className={`border-l-2 font-semibold border-slate-100 p-9 group-hover:shadow-md`}
@@ -33,7 +34,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/borehole-drilling'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/borehole-drilling'>
                     Borehole Drilling
@@ -42,7 +43,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/equipment-supplies'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/equipment-supplies'>
                     Equipment Supplies
@@ -51,7 +52,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/building-construction'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/building-construction'>
                     Building Construction
@@ -60,7 +61,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/civil-mechanical-engineering'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/civil-mechanical-engineering'>
                     Civil / Mechanical Engineering Works
@@ -69,7 +70,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/construction-materials-leasing'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/construction-materials-leasing'>
                     Construction Materials / Heavy Duty Equipment Leasing
@@ -89,7 +90,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/oil&gas'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/oil&gas'>
                     Oil and Gas
@@ -98,7 +99,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/general-procurement'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/general-procurement'>
                     General Procurement
@@ -107,7 +108,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/services/road-construction-erosion-control'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/road-construction-erosion-control'>
                     Road Construction / Erosion Control
@@ -117,7 +118,7 @@ const DesktopNav = () => {
                       pathname ===
                       '/services/electrical-engineering-instruments'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/services/electrical-engineering-instruments'>
                     Electrical Engineering / instruments
@@ -128,7 +129,7 @@ const DesktopNav = () => {
             <div className='relative group'>
               <Link
                 className={`border-l-2 border-r-2 font-semibold border-slate-100 p-9 group-hover:shadow-md ${
-                  pathname === '/projects' ? 'text-blue-500' : 'text-slate-800'
+                  pathname === '/projects' ? 'text-blue-500' : 'text-slate-700'
                 }`}
                 href='/projects'>
                 Projects
@@ -159,14 +160,18 @@ const DesktopNav = () => {
                 {/* Dropdown content */}
                 <div className='flex flex-col w-80 gap-1 text-base py-5'>
                   <Link
-                    className=' border-transparent p-3 hover:text-orange-500 hover:border-slate-200 scale-95 transition-all'
-                    href='https://en.efinorseacleaner.com/'>
-                    EFINOR SEA CLEANER FRANCE
+                    target='_blank'
+                    className=' border-transparent p-3 flex items-center gap-2 hover:text-orange-500 hover:border-slate-200 scale-95 transition-all'
+                    href='https://en.efinorseacleaner.com/gammes-de-navires/waste-cleaner'>
+                    EFINOR SEA CLEANER FRANCE{' '}
+                    <Image src={arrow} alt='' className='w-4' />
                   </Link>
                   <Link
-                    className='border-transparent p-3 hover:text-green-500 hover:border-slate-200 scale-95 transition-all'
+                    target='_blank'
+                    className='border-transparent flex items-center gap-2 p-3 hover:text-green-500 hover:border-slate-200 scale-95 transition-all'
                     href='https://www.hoppecke.com/en/products/'>
-                    HOPPECKE BATTERIEN GERMANY
+                    HOPPECKE BATTERIEN GERMANY{' '}
+                    <Image src={arrow} alt='' className='w-4' />
                   </Link>
                 </div>
               </div>
@@ -184,7 +189,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/about-us'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/about-us'>
                     Company History
@@ -193,7 +198,7 @@ const DesktopNav = () => {
                     className={` border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all ${
                       pathname === '/board-of-directors'
                         ? 'text-blue-500'
-                        : 'text-slate-800'
+                        : 'text-slate-700'
                     }`}
                     href='/board-of-directors'>
                     Board Of Directors
@@ -215,7 +220,7 @@ const DesktopNav = () => {
             </button>
           </Link>
         </div>
-      </section> 
+      </section>
     </div>
   )
 }
