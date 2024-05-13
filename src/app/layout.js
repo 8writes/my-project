@@ -6,7 +6,6 @@ import './style.css'
 import DesktopNav from '@/navigation/desktop-nav/desktop-nav'
 import MobileNav from '@/navigation/mobile-nav/mobile-nav'
 import Footer from '@/navigation/footer/footer'
-import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,14 +14,16 @@ export const metadata = {
   description: 'Top civil and electrical engineering company in Nigeria',
   keywords:
     'civil engineering, onpoint, dynamics, synergy, onpointdynamicssynergy, construction, waste management, oil and gas',
+  verification: {
+    google: 'M6OoraMA-ohCavhaLIPO65l2LPu-TZVMkdMms9-2Df0',
+  },
+  
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <Head>
-       <meta name="google-site-verification" content="M6OoraMA-ohCavhaLIPO65l2LPu-TZVMkdMms9-2Df0" />
-      </Head>
+     
       <body className={inter.className} inmaintabuse='1'>
         <DesktopNav />
         <MobileNav />
