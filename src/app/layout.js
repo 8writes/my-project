@@ -3,7 +3,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import './style.css'
-
 import DesktopNav from '@/navigation/desktop-nav/desktop-nav'
 import MobileNav from '@/navigation/mobile-nav/mobile-nav'
 import Footer from '@/navigation/footer/footer'
