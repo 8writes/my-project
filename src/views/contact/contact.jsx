@@ -6,7 +6,7 @@ import PagesHeader from '@/components/pages-header'
 
 const Contact = () => {
   return (
-    <div className='projects-page  lg:pt-20'>
+    <div className='projects-page pt-16 lg:pt-20'>
       <PagesHeader title='Contact' />
       <div className='font text-slate-700 pb-60 lg:pb-40 px-6 pt-20 flex flex-wrap justify-center gap-20'>
         <div className='w-full lg:w-96'>
