@@ -30,7 +30,7 @@ const BoardOfDirectors = () => {
           <BoardCard
             imageSrc={chairman}
             name='Alh Khalifa A Jikantoro. '
-            title=' Galadiman Borgu kingdom.  Niger state.  Nigeria.'
+            title=' Chairman'
           />
         </div>
       </div>

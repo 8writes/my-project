@@ -16,7 +16,7 @@ const BoardCard = ({ imageSrc, name, title }) => {
         <h1 className='text-slate-700 font-bold text-xl uppercase tracking-wide'>
           {name}
         </h1>
-        <p className='text-slate-700 uppercase py-2 font-medium'>{title}</p>
+        <p className='text-slate-700 uppercase py-2 font-medium h-14'>{title}</p>
       </div>
     </div>
   )
