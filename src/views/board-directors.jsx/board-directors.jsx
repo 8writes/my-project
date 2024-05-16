@@ -29,7 +29,7 @@ const BoardOfDirectors = () => {
           />
           <BoardCard
             imageSrc={chairman}
-            name='Alh Khalifa A Jikantoro. '
+            name='Alh Khalifa A Jikantoro'
             title=' Chairman'
           />
         </div>
