@@ -398,7 +398,7 @@ const MobileNav = () => {
                       <Link
                         onClick={toggleMenuClose}
                         className=' border-transparent p-3 text-slate-700 hover:border-slate-200 scale-95'
-                        href='#'>
+                        href='/gallery'>
                         Gallery
                       </Link>
                     </div>

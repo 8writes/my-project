@@ -205,7 +205,7 @@ const DesktopNav = () => {
                   </Link>
                   <Link
                     className='border-transparent p-3 hover:text-blue-500 hover:border-slate-200 scale-95 transition-all'
-                    href='#'>
+                    href='/gallery'>
                     Gallery
                   </Link>
                 </div>

@@ -67,7 +67,7 @@ const Footer = () => {
               </li>
               <li>
                 {' '}
-                <Link className='hover:text-blue-500 hover:underline' href='#'>
+                <Link className='hover:text-blue-500 hover:underline' href='/gallery'>
                   {' '}
                   Gallery
                 </Link>
@@ -115,13 +115,13 @@ const Footer = () => {
               </li>
               <li>
                 {' '}
-                <Link className='hover:text-blue-500 hover:underline' href='#'>
+                <Link className='hover:text-blue-500 hover:underline' href='/terms-of-use'>
                   Terms of Use
                 </Link>
               </li>
               <li>
                 {' '}
-                <Link className='hover:text-blue-500 hover:underline' href='#'>
+                <Link className='hover:text-blue-500 hover:underline' href='/cookies'>
                   Cookie Policy
                 </Link>
               </li>
