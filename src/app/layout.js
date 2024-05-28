@@ -13,17 +13,15 @@ export const metadata = {
   title: 'ON-POINT DYNAMICS SYNERGY',
   description: 'Top civil and electrical engineering company in Nigeria',
   keywords:
-    'civil engineering, onpoint, dynamics, synergy,  onpoint dynamics synergy, onpointdynamicssynergy, construction, waste management, oil and gas',
+    'civil engineering, onpoint, dynamics, dynamic, synergy,  onpoint dynamics synergy, onpointdynamicssynergy, onpointdynamicsynergy, onpoint dynamic synergy, construction, waste management, oil and gas',
   verification: {
     google: 'M6OoraMA-ohCavhaLIPO65l2LPu-TZVMkdMms9-2Df0',
   },
-  
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-     
       <body className={inter.className} inmaintabuse='1'>
         <DesktopNav />
         <MobileNav />
