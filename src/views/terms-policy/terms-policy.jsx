@@ -6,9 +6,8 @@ import PagesHeader from '@/components/pages-header'
 const TermsPolicy = () => {
   return (
     <div className='about bg-white pt-16 lg:pt-20'>
-      <PagesHeader title='Privacy Policy' />
-      <div className='text-slate-800 p-24'>
-        <h1 className='text-4xl font-bold'>Terms & Conditions</h1>
+      <PagesHeader title='Terms & Conditions' />
+      <div className='text-slate-800 p-5 md:p-24'>
         <p className='py-10'>Last updated: June 06, 2024.</p>
         <p>
           Please read these terms and conditions carefully before using Our
@@ -135,7 +134,7 @@ const TermsPolicy = () => {
           Upon termination, Your right to use the Service will cease
           immediately.
         </p>
-        
+
         <p>
           To the maximum extent permitted by applicable law, in no event shall
           the Company or its suppliers be liable for any special, incidental,
