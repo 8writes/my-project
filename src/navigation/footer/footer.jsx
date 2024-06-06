@@ -115,8 +115,8 @@ const Footer = () => {
               </li>
               <li>
                 {' '}
-                <Link className='hover:text-blue-500 hover:underline' href='/terms-of-use'>
-                  Terms of Use
+                <Link className='hover:text-blue-500 hover:underline' href='/terms-policy'>
+                  Terms & Conditions
                 </Link>
               </li>
               <li>

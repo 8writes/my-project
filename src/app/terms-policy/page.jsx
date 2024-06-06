@@ -1,13 +1,13 @@
 
 'use client'
 
-import TermsOfUse from "@/views/terms-of-use/terms-of-use";
+import TermsPolicy from "@/views/terms-policy/terms-policy";
 
 
 const Page = () => {
     return (
         <div>
-       <TermsOfUse />
+       <TermsPolicy />
         </div>
     );
 }
