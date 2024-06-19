@@ -60,8 +60,8 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
       </div>
 
       <Dialog open={isOpen} onClose={closeDialog} maxWidth='lg' fullWidth>
-        <div className='relative'>
-          <button className='absolute bg-slate-300 z-10 top-4 right-4 '>
+        <div className='relative bg-slate-500'>
+          <button className='absolute z-10 top-4 right-4 '>
             <Image
               onClick={closeDialog}
               src={closeMenu}
@@ -73,7 +73,7 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
 
           <div className='flex relative items-center justify-center '>
             <ArrowBackIos
-              className='cursor-pointer absolute text-white left-0 mx-2'
+              className='cursor-pointer absolute text-white left-0 mx-5'
               onClick={prevImage}
               fontSize='large'
             />
@@ -86,11 +86,13 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
               <Image
                 src={images[currentIndex]}
                 alt={`Slide ${currentIndex + 1}`}
-                className=' h-96 md:h-screen w-screen'
+                width={500}
+                height={400}
+                className='w-96'
               />
             </motion.div>
             <ArrowForwardIos
-              className='cursor-pointer absolute text-white right-0'
+              className='cursor-pointer absolute text-white right-0 mx-4'
               onClick={nextImage}
               fontSize='large'
             />
