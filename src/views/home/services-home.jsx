@@ -61,21 +61,23 @@ const ServicesHome = () => {
       </svg>
       <AboutUs />
       <div className='services-bg flex flex-wrap justify-center sticky top-96 px-5 gap-10 w-full pt-10 md:pt-16 '>
-        <motion.div
-          initial={{ y: 10 }}
-          whileInView={{ y: 0 }}
-          transition={{
-            duration: 0.2,
-          }}
-          className='services-left-content'>
-          <div className='sticky w-full lg:w-11/12 top-52'>
-            <p className='uppercase text-blue-500 font-bold tracking-wide pb-5'>
+        <div className='services-left-content'>
+          <div className='sticky overflow-hidden w-full lg:w-11/12 top-52'>
+            <motion.p
+              initial={{ x: -50 }}
+              whileInView={{ x: -0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className='uppercase text-blue-500 font-bold tracking-wide pb-5'>
               ON-PO𝕀NT DYNAMICS SYNERGY
-            </p>
+            </motion.p>
 
-            <h1 className='text-5xl md:text-7xl uppercase pb-10 text-blue-500 font-extrabold '>
+            <motion.h1
+              initial={{ x: 50 }}
+              whileInView={{ x: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className='text-5xl md:text-7xl uppercase pb-10 text-blue-500 font-extrabold '>
               Services
-            </h1>
+            </motion.h1>
             <span className='flex items-center justify-center mx-auto'>
               <Image
                 className=' w-fit'
@@ -92,10 +94,14 @@ const ServicesHome = () => {
             </p>
             <div className=' h-0.5 bg-blue-400'></div>
           </div>
-        </motion.div>
+        </div>
         <div>
           <div className='services-right-content'>
-            <div className='card flex items-center'>
+            <motion.div
+              initial={{ y: 50 }}
+              whileInView={{ y: 0 }}
+              transition={{ duration: 0.6 }}
+              className='card flex items-center'>
               <div className='my-auto'>
                 <h2 className=' drop-shadow-2xl'>
                   CIVIL / MECHANICAL ENGINEERING
@@ -106,8 +112,12 @@ const ServicesHome = () => {
                   </button>
                 </Link>
               </div>
-            </div>
-            <div className='card lg:-ml-4 lg:mr-4 flex items-center'>
+            </motion.div>
+            <motion.div
+              initial={{ y: 50 }}
+              whileInView={{ y: 0 }}
+              transition={{ duration: 0.6 }}
+              className='card lg:-ml-4 lg:mr-4 flex items-center'>
               <div className='my-auto'>
                 <h2 className=' drop-shadow-2xl'>
                   Construction Materials / Heavy duty equipment leasing
@@ -118,8 +128,12 @@ const ServicesHome = () => {
                   </button>
                 </Link>
               </div>
-            </div>
-            <div className='card lg:-ml-8 lg:mr-8 flex items-center'>
+            </motion.div>
+            <motion.div
+              initial={{ y: 50 }}
+              whileInView={{ y: 0 }}
+              transition={{ duration: 0.6 }}
+              className='card lg:-ml-8 lg:mr-8 flex items-center'>
               <div className='my-auto'>
                 <h2 className=' drop-shadow-2xl'>
                   Road Construction / Erosion Control
@@ -130,8 +144,12 @@ const ServicesHome = () => {
                   </button>
                 </Link>
               </div>
-            </div>
-            <div className='card lg:-ml-12 lg:mr-12 flex items-center'>
+            </motion.div>
+            <motion.div
+              initial={{ y: 50 }}
+              whileInView={{ y: 0 }}
+              transition={{ duration: 0.6 }}
+              className='card lg:-ml-12 lg:mr-12 flex items-center'>
               <div className='my-auto'>
                 <h2 className=' drop-shadow-2xl'>
                   Electrical Engineering / instrumentation
@@ -142,8 +160,12 @@ const ServicesHome = () => {
                   </button>
                 </Link>
               </div>
-            </div>
-            <div className='card flex flex-col lg:-ml-16 lg:mr-16'>
+            </motion.div>
+            <motion.div
+              initial={{ y: 50 }}
+              whileInView={{ y: 0 }}
+              transition={{ duration: 0.6 }}
+              className='card flex flex-col lg:-ml-16 lg:mr-16'>
               <div className='my-auto'>
                 <h2 className=' drop-shadow-2xl'>Waste Management</h2>
                 <Link href='/services/waste-management'>
@@ -152,7 +174,7 @@ const ServicesHome = () => {
                   </button>
                 </Link>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

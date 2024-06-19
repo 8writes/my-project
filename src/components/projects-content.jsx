@@ -3,8 +3,9 @@
 import Image from 'next/image' // assuming you're using Next.js for images
 import { motion } from 'framer-motion'
 import Dialog from '@mui/material/Dialog'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material'
+import closeMenu from '../../public/images/close.svg'
 
 const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -28,17 +29,17 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
     )
   }
 
+  const [hasAnimated, setHasAnimated] = useState(false)
+
+  useEffect(() => {
+    setHasAnimated(true)
+  }, [])
+
   return (
     <>
-      <motion.div
+      <div
         key={`project-card-${Math.random()}`} // Use a random key to ensure proper animation re-renders
-        initial={{ y: 20 }}
-        whileInView={{ y: 0 }}
-        transition={{
-          duration: 0.4,
-          delay: 0.1,
-        }}
-        className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group'>
+      >
         <Image
           src={imageSrc}
           loading='lazy'
@@ -56,16 +57,21 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
             {buttonText}
           </button>
         </div>
-      </motion.div>
+      </div>
 
       <Dialog open={isOpen} onClose={closeDialog} maxWidth='lg' fullWidth>
         <div className='relative'>
-          <button
-            onClick={closeDialog}
-            className='absolute z-10 top-4 right-4 text-red-600'>
-            Close
+          <button className='absolute bg-slate-300 z-10 top-4 right-4 '>
+            <Image
+              onClick={closeDialog}
+              src={closeMenu}
+              alt='Close Icon'
+              width={40}
+              loading='eager'
+            />
           </button>
-          <div className='flex relative items-center justify-center'>
+
+          <div className='flex relative items-center justify-center '>
             <ArrowBackIos
               className='cursor-pointer absolute text-white left-0 mx-2'
               onClick={prevImage}
@@ -80,7 +86,7 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
               <Image
                 src={images[currentIndex]}
                 alt={`Slide ${currentIndex + 1}`}
-                className=' h-96 w-screen'
+                className=' h-96 md:h-screen w-screen'
               />
             </motion.div>
             <ArrowForwardIos

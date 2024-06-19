@@ -26,32 +26,50 @@ const ProjectsHome = () => {
           duration: 0.2,
           delay: 0.1,
         }}
-        className='absolute -top-10 z-10 shadow-2xl py-5 px-16 bg-blue-500'>
+        className='absolute overflow-hidden -top-10 z-10 shadow-2xl py-5 px-16 bg-blue-500'>
         <h1 className='text-2xl md:text-4xl uppercase text-white font-semibold'>
           Projects
         </h1>
       </motion.div>
       <div className='flex flex-wrap w-full'>
-        <ProjectCard
-          imageSrc={image1}
-          projectDescription='Retaining work project for Niger Delta Power Holding Company at Omotosho Power plant, Ondo State.'
-          buttonText='View Project'
-          images={images1}
-        />
-        <ProjectCard
-          imageSrc={image2}
-          projectDescription='Steam turbine roofing for Niger Delta Power Holding Company at
+        <motion.div
+          initial={{ y: 50 }}
+          whileInView={{ y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group'>
+          <ProjectCard
+            imageSrc={image1}
+            projectDescription='Retaining work project for Niger Delta Power Holding Company at Omotosho Power plant, Ondo State.'
+            buttonText='View Project'
+            images={images1}
+          />
+        </motion.div>
+        <motion.div
+          initial={{ y: 55 }}
+          whileInView={{ y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group'>
+          <ProjectCard
+            imageSrc={image2}
+            projectDescription='Steam turbine roofing for Niger Delta Power Holding Company at
               olorunshogo Power plant Ogun State.'
-          buttonText='View Project'
-          images={images2}
-        />
-        <ProjectCard
-          imageSrc={image3}
-          projectDescription='renovation project for Niger Delta Power Holding Company at
+            buttonText='View Project'
+            images={images2}
+          />
+        </motion.div>
+        <motion.div
+          initial={{ y: 50 }}
+          whileInView={{ y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className='w-full lg:hover:border-l-8 lg:hover:border-blue-500 transition-all ease-in-out lg:flex-1 relative group'>
+          <ProjectCard
+            imageSrc={image3}
+            projectDescription='renovation project for Niger Delta Power Holding Company at
               Gbarain Bayelsa state.'
-          buttonText='View Project'
-          images={images3}
-        />
+            buttonText='View Project'
+            images={images3}
+          />
+        </motion.div>
       </div>
     </div>
   )

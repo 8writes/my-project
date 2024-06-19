@@ -20,11 +20,19 @@ const AboutUs = () => {
           About
         </p>
 
-        <h1 className='font font-extrabold pb-10 text-slate-700 text-3xl md:text-4xl'>
+        <motion.h1
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className='font overflow-hidden font-extrabold pb-10 text-slate-700 text-3xl md:text-4xl'>
           Building Nigeria's Future, One Project at a Time.
-        </h1>
+        </motion.h1>
 
-        <div className=' w-32 h-1 bg-blue-400'></div>
+        <motion.div
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className=' w-32 h-1 bg-blue-400'></motion.div>
       </motion.div>
       <motion.div
         initial={{ y: 10 }}
@@ -39,7 +47,11 @@ const AboutUs = () => {
           and pre-engineered metal buildings, we serve commercial and industrial
           clients with excellence and integrity.
         </p>
-        <div className='uppercase bg-blue-500 text-white w-fit text-xs my-1 tracking-wide font-semibold'>
+        <motion.div
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className='uppercase bg-blue-500 text-white w-fit text-xs my-1 tracking-wide font-semibold'>
           <Link href='about-us' className='group flex items-center py-1 px-3'>
             Learn About Us{' '}
             <svg
@@ -56,7 +68,7 @@ const AboutUs = () => {
               />
             </svg>
           </Link>
-        </div>
+        </motion.div>
       </motion.div>
     </div>
   )

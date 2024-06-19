@@ -39,13 +39,11 @@ const Brands = () => {
   return (
     <div className='bg-white pb-48 pt-16 p-5 lg:p-20'>
       <motion.div
-        initial={{ opacity: 0, x: 20 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{
-            duration: 0.2,
-        }}
+        initial={{ x: 20 }}
+        whileInView={{ x: 0 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
         className='pb-5'>
-        <p className='uppercase text-blue-500 font-bold text-base tracking-wide pb-5'>
+        <p className='uppercase overflow-hidden text-blue-500 font-bold text-base tracking-wide pb-5'>
           Technical Partners & Clients
         </p>
         <div className='w-32 h-1 bg-blue-500'></div>
