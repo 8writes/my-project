@@ -88,6 +88,7 @@ const ProjectCard = ({ imageSrc, projectDescription, buttonText, images }) => {
                 alt={`Slide ${currentIndex + 1}`}
                 width={500}
                 height={400}
+                loading='eager'
                 className='w-96'
               />
             </motion.div>
