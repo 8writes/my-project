@@ -15,13 +15,14 @@ const Footer = () => {
       <div className='px-5 md:px-20 pt-12 pb-5 bg-slate-900'>
         <section className='footer flex flex-wrap py-10 md:py-20 gap-10 justify-between font-semibold w-full'>
           <div className=' w-96'>
+             <Link className='' href='/'>
             <Image
               src={logo}
               alt='Company Logo'
               width={83}
               loading='eager'
               className='pb-5'
-            />
+            /></Link>
             <p className='text-sm text-white leading-6'>
               Providing services in general contracting, oil and gas,
               construction management and pre-engineered metal buildings
